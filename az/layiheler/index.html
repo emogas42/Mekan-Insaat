@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Məkan İnşaat MMC layihələri — Bakı və Azərbaycanda tamamlanan tikinti layihəçiliyi işləri.">
+  <title>Layihələr — Məkan İnşaat MMC</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="/az/" class="nav-brand">
+        <div class="nav-logo-mark">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M1 15V7L8 2l7 5v8H1z" fill="white" fill-opacity="0.25" stroke="white" stroke-width="1.25" stroke-linejoin="round"/>
+            <path d="M6 15v-5h4v5" stroke="white" stroke-width="1.25" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="nav-logo-text">
+          <span class="nav-logo-name">Məkan İnşaat</span>
+          <span class="nav-logo-sub">MMC · Bakı, Azərbaycan</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/az/">Ana Səhifə</a></li>
+        <li><a href="/az/haqqimizda/">Haqqımızda</a></li>
+        <li><a href="/az/xidmetler/">Xidmətlər</a></li>
+        <li><a href="/az/layiheler/" class="active">Layihələr</a></li>
+        <li><a href="/az/elaqe/" class="nav-cta">Əlaqə</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menyu açmaq">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <button class="mobile-close" id="mobile-close">✕</button>
+    <a href="/az/">Ana Səhifə</a>
+    <a href="/az/haqqimizda/">Haqqımızda</a>
+    <a href="/az/xidmetler/">Xidmətlər</a>
+    <a href="/az/layiheler/" class="active">Layihələr</a>
+    <a href="/az/elaqe/">Əlaqə</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <nav class="breadcrumb">
+        <a href="/az/">Ana Səhifə</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>Layihələr</span>
+      </nav>
+      <div class="section-tag">Portfolio</div>
+      <h1 class="page-hero-title">Layihələrimiz</h1>
+      <p class="page-hero-sub">
+        Bakı və Azərbaycanın müxtəlif bölgələrindəki tamamlanmış tikinti layihələrimiz.
+      </p>
+    </div>
+  </section>
+
+  <!-- FILTER -->
+  <section class="filter-section">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">Hamısı</button>
+      <button class="filter-btn" data-filter="yasayis">Yaşayış</button>
+      <button class="filter-btn" data-filter="inzibati">İnzibati</button>
+      <button class="filter-btn" data-filter="komersiya">Kommersiya</button>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="gallery-grid" id="gallery-grid">
+
+        <!-- BADAMDAR — featured (spans 2 cols) -->
+        <div class="gallery-card featured reveal" data-type="yasayis"
+             data-project="badamdar" style="cursor:pointer">
+          <div class="gallery-img-wrap">
+            <img class="gallery-img"
+                 src="../../assets/images/projects/badamdar/1.jpg"
+                 alt="Badamdar Yaşayış Binası"
+                 loading="lazy">
+            <div class="gallery-count">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              5 şəkil
+            </div>
+          </div>
+          <div class="gallery-body">
+            <div class="gallery-type">Yaşayış · Badamdar, Bakı</div>
+            <div class="gallery-title">Badamdar 7 Mərtəbəli Yaşayış Binası</div>
+            <div class="gallery-meta">
+              <span>7 mərtəbə</span>
+              <span>2023</span>
+              <a href="/az/layiheler/badamdar/" class="gallery-detail-link" onclick="event.stopPropagation()">
+                Ətraflı Bax
+                <svg width="11" height="11" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ANAMA -->
+        <div class="gallery-card reveal reveal-delay-1" data-type="komersiya"
+             data-project="anama" style="cursor:pointer">
+          <div class="gallery-img-wrap">
+            <img class="gallery-img"
+                 src="../../assets/images/projects/anama/1.jpg"
+                 alt="ANAMA Korporativ Binası"
+                 loading="lazy">
+            <div class="gallery-count">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              6 şəkil
+            </div>
+          </div>
+          <div class="gallery-body">
+            <div class="gallery-type">Kommersiya · Bakı</div>
+            <div class="gallery-title">ANAMA Korporativ Binası</div>
+            <div class="gallery-meta">
+              <span>6 mərtəbə</span>
+              <span>2022</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ECEMI -->
+        <div class="gallery-card reveal" data-type="yasayis"
+             data-project="ecemi" style="cursor:pointer">
+          <div class="gallery-img-wrap">
+            <img class="gallery-img"
+                 src="../../assets/images/projects/ecemi/1.jpg"
+                 alt="Nəsimi Çoxmənzilli Yaşayış Binası"
+                 loading="lazy">
+            <div class="gallery-count">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              3 şəkil
+            </div>
+          </div>
+          <div class="gallery-body">
+            <div class="gallery-type">Yaşayış · Nəsimi r., Bakı</div>
+            <div class="gallery-title">Nəsimi r. Çoxmənzilli Yaşayış Binası</div>
+            <div class="gallery-meta">
+              <span>16+ mərtəbə</span>
+              <span>2021</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- YAP -->
+        <div class="gallery-card reveal reveal-delay-1" data-type="inzibati"
+             data-project="yap" style="cursor:pointer">
+          <div class="gallery-img-wrap">
+            <img class="gallery-img"
+                 src="../../assets/images/projects/yap/1.jpg"
+                 alt="YAP İnzibati Binası"
+                 loading="lazy">
+            <div class="gallery-count">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              3 şəkil
+            </div>
+          </div>
+          <div class="gallery-body">
+            <div class="gallery-type">İnzibati · Xətai r., Bakı</div>
+            <div class="gallery-title">Yeni Azərbaycan Partiyası İnzibati Binası</div>
+            <div class="gallery-meta">
+              <span>6 mərtəbə</span>
+              <span>2022</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CENNET PARK -->
+        <div class="gallery-card reveal reveal-delay-2" data-type="yasayis"
+             data-project="cennet-park" style="cursor:pointer">
+          <div class="gallery-img-wrap">
+            <img class="gallery-img"
+                 src="../../assets/images/projects/cennet-park/1.jpg"
+                 alt="Cənnət Park Yaşayış Kompleksi"
+                 loading="lazy">
+            <div class="gallery-count">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              2 şəkil
+            </div>
+          </div>
+          <div class="gallery-body">
+            <div class="gallery-type">Yaşayış Kompleksi · Bakı</div>
+            <div class="gallery-title">Cənnət Park Yaşayış Kompleksi</div>
+            <div class="gallery-meta">
+              <span>3 blok · 10 mərtəbə</span>
+              <span>2020</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- INQLAB -->
+        <div class="gallery-card reveal" data-type="yasayis"
+             data-project="inqlab" style="cursor:pointer">
+          <div class="gallery-img-wrap">
+            <img class="gallery-img"
+                 src="../../assets/images/projects/inqlab/1.jpg"
+                 alt="İnqilab küç. Yaşayış Binası"
+                 loading="lazy">
+            <div class="gallery-count">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              3 şəkil
+            </div>
+          </div>
+          <div class="gallery-body">
+            <div class="gallery-type">Yaşayış · Bakı</div>
+            <div class="gallery-title">H. Əliyev küç. Çoxmənzilli Yaşayış Binası</div>
+            <div class="gallery-meta">
+              <span>22 mərtəbə</span>
+              <span>2023</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ZERDABI -->
+        <div class="gallery-card reveal reveal-delay-1" data-type="yasayis"
+             data-project="zerdabi" style="cursor:pointer">
+          <div class="gallery-img-wrap">
+            <img class="gallery-img"
+                 src="../../assets/images/projects/zerdabi/1.jpg"
+                 alt="Zərdabi-Şərifzadə Yaşayış Binası"
+                 loading="lazy">
+            <div class="gallery-count">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              2 şəkil
+            </div>
+          </div>
+          <div class="gallery-body">
+            <div class="gallery-type">Yaşayış · Bakı</div>
+            <div class="gallery-title">Zərdabi-Şərifzadə Yaşayış Binası</div>
+            <div class="gallery-meta">
+              <span>16 mərtəbə</span>
+              <span>2021</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- QOBU -->
+        <div class="gallery-card reveal reveal-delay-2" data-type="yasayis"
+             data-project="qobu" style="cursor:pointer">
+          <div class="gallery-img-wrap">
+            <img class="gallery-img"
+                 src="../../assets/images/projects/qobu/1.jpg"
+                 alt="Qobu Yaşayış Kompleksi"
+                 loading="lazy">
+            <div class="gallery-count">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              5 şəkil
+            </div>
+          </div>
+          <div class="gallery-body">
+            <div class="gallery-type">Yaşayış · Qaradağ r., Qobu</div>
+            <div class="gallery-title">Qobu Qəsəbəsi Yaşayış Kompleksi</div>
+            <div class="gallery-meta">
+              <span>Çoxbloklu</span>
+              <span>2022</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- AZADLIQ -->
+        <div class="gallery-card reveal" data-type="yasayis"
+             data-project="azadliq" style="cursor:pointer">
+          <div class="gallery-img-wrap">
+            <img class="gallery-img"
+                 src="../../assets/images/projects/azadliq/1.jpg"
+                 alt="Azadlıq Yaşayış Kompleksi"
+                 loading="lazy">
+            <div class="gallery-count">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              4 şəkil
+            </div>
+          </div>
+          <div class="gallery-body">
+            <div class="gallery-type">Yaşayış · Bakı</div>
+            <div class="gallery-title">Azadlıq pr. Yaşayış Kompleksi</div>
+            <div class="gallery-meta">
+              <span>12 mərtəbə</span>
+              <span>2020</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PAGE CTA -->
+  <section class="page-cta">
+    <div class="container">
+      <div class="page-cta-text reveal">
+        <h2>Növbəti layihə sizinkilər.</h2>
+        <p>Layihənizi müzakirə etmək üçün əlaqə saxlayın. Hər ölçüdə layihəyə hazırıq.</p>
+      </div>
+      <div class="page-cta-actions reveal reveal-delay-1">
+        <a href="/az/elaqe/" class="btn btn-white">
+          Əlaqəyə Keç
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="/az/xidmetler/" class="btn btn-white-outline">Xidmətlərimiz</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-logo">
+            <div class="nav-logo-mark" style="width:28px;height:28px;">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M1 15V7L8 2l7 5v8H1z" fill="white" fill-opacity="0.25" stroke="white" stroke-width="1.25" stroke-linejoin="round"/>
+                <path d="M6 15v-5h4v5" stroke="white" stroke-width="1.25" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="footer-brand-name">Məkan İnşaat</span>
+          </div>
+          <p class="footer-brand-desc">Bakı əsaslı tikinti layihəçiliyi şirkəti. 2009-dan bəri fəaliyyətdəyik.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Şirkət</h5>
+          <ul>
+            <li><a href="/az/haqqimizda/">Haqqımızda</a></li>
+            <li><a href="/az/layiheler/">Layihələr</a></li>
+            <li><a href="/az/elaqe/">Əlaqə</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Xidmətlər</h5>
+          <ul>
+            <li><a href="/az/xidmetler/">Mülki Layihəçilik</a></li>
+            <li><a href="/az/xidmetler/">Smeta Sənədləri</a></li>
+            <li><a href="/az/xidmetler/">Arxitektura Dizaynı</a></li>
+            <li><a href="/az/xidmetler/">Texniki Ekspertiza</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Əlaqə</h5>
+          <div style="display:flex;flex-direction:column;gap:0.875rem;">
+            <div class="footer-contact-item">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .91h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              +994 XX XXX XX XX
+            </div>
+            <div class="footer-contact-item">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              info@mekaninsaat.az
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Məkan İnşaat MMC. Bütün hüquqlar qorunur.</span>
+        <span>Bakı, Azərbaycan</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Yuxarı qayıt">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" id="lb-close" aria-label="Bağla">✕</button>
+    <button class="lightbox-nav lb-prev" id="lb-prev" aria-label="Əvvəlki">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <img class="lightbox-img" id="lb-img" src="" alt="">
+    <button class="lightbox-nav lb-next" id="lb-next" aria-label="Növbəti">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+    <div class="lightbox-thumbs" id="lb-thumbs"></div>
+    <div class="lightbox-footer">
+      <div class="lightbox-caption" id="lb-caption"></div>
+      <div class="lightbox-counter" id="lb-counter"></div>
+    </div>
+  </div>
+
+  <script src="../../js/main.js"></script>
+  <script>
+    /* ── Project image data ── */
+    const PROJECTS = {
+      badamdar: {
+        name: 'Badamdar 7 Mərtəbəli Yaşayış Binası',
+        images: [
+          '../../assets/images/projects/badamdar/1.jpg',
+          '../../assets/images/projects/badamdar/2.jpg',
+          '../../assets/images/projects/badamdar/3.jpg',
+          '../../assets/images/projects/badamdar/4.jpg',
+          '../../assets/images/projects/badamdar/5.jpg',
+        ]
+      },
+      anama: {
+        name: 'ANAMA Korporativ Binası',
+        images: [
+          '../../assets/images/projects/anama/1.jpg',
+          '../../assets/images/projects/anama/2.jpg',
+          '../../assets/images/projects/anama/3.jpg',
+          '../../assets/images/projects/anama/4.jpg',
+          '../../assets/images/projects/anama/5.jpg',
+          '../../assets/images/projects/anama/6.jpg',
+        ]
+      },
+      ecemi: {
+        name: 'Nəsimi r. Çoxmənzilli Yaşayış Binası',
+        images: [
+          '../../assets/images/projects/ecemi/1.jpg',
+          '../../assets/images/projects/ecemi/2.jpg',
+          '../../assets/images/projects/ecemi/3.jpg',
+        ]
+      },
+      yap: {
+        name: 'Yeni Azərbaycan Partiyası İnzibati Binası',
+        images: [
+          '../../assets/images/projects/yap/1.jpg',
+          '../../assets/images/projects/yap/2.jpg',
+          '../../assets/images/projects/yap/3.jpg',
+        ]
+      },
+      'cennet-park': {
+        name: 'Cənnət Park Yaşayış Kompleksi',
+        images: [
+          '../../assets/images/projects/cennet-park/1.jpg',
+          '../../assets/images/projects/cennet-park/2.jpg',
+        ]
+      },
+      inqlab: {
+        name: 'H. Əliyev küç. Çoxmənzilli Yaşayış Binası',
+        images: [
+          '../../assets/images/projects/inqlab/1.jpg',
+          '../../assets/images/projects/inqlab/2.png',
+          '../../assets/images/projects/inqlab/3.jpg',
+        ]
+      },
+      zerdabi: {
+        name: 'Zərdabi-Şərifzadə Yaşayış Binası',
+        images: [
+          '../../assets/images/projects/zerdabi/1.jpg',
+          '../../assets/images/projects/zerdabi/2.jpg',
+        ]
+      },
+      qobu: {
+        name: 'Qobu Qəsəbəsi Yaşayış Kompleksi',
+        images: [
+          '../../assets/images/projects/qobu/1.jpg',
+          '../../assets/images/projects/qobu/2.jpg',
+          '../../assets/images/projects/qobu/3.jpg',
+          '../../assets/images/projects/qobu/4.jpg',
+          '../../assets/images/projects/qobu/5.jpg',
+        ]
+      },
+      azadliq: {
+        name: 'Azadlıq pr. Yaşayış Kompleksi',
+        images: [
+          '../../assets/images/projects/azadliq/1.jpg',
+          '../../assets/images/projects/azadliq/2.jpg',
+          '../../assets/images/projects/azadliq/3.jpg',
+          '../../assets/images/projects/azadliq/4.jpg',
+        ]
+      }
+    };
+
+    /* ── Lightbox state ── */
+    let lbImages = [], lbIdx = 0;
+
+    const lb       = document.getElementById('lightbox');
+    const lbImg    = document.getElementById('lb-img');
+    const lbCap    = document.getElementById('lb-caption');
+    const lbCtr    = document.getElementById('lb-counter');
+    const lbThumbs = document.getElementById('lb-thumbs');
+
+    function lbShow(images, idx, title) {
+      lbImages = images;
+      lbIdx    = idx;
+      lbUpdate(title);
+      lb.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function lbUpdate(title) {
+      lbImg.src = lbImages[lbIdx];
+      lbImg.alt = title || '';
+      lbCap.textContent = title || '';
+      lbCtr.textContent = (lbIdx + 1) + ' / ' + lbImages.length;
+
+      /* thumbs */
+      lbThumbs.innerHTML = '';
+      lbImages.forEach(function(src, i) {
+        const t = document.createElement('div');
+        t.className = 'lb-thumb' + (i === lbIdx ? ' active' : '');
+        const img = document.createElement('img');
+        img.src = src; img.alt = '';
+        t.appendChild(img);
+        t.addEventListener('click', function() { lbIdx = i; lbUpdate(lbCap.textContent); });
+        lbThumbs.appendChild(t);
+      });
+    }
+
+    function lbClose() {
+      lb.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    document.getElementById('lb-close').addEventListener('click', lbClose);
+    document.getElementById('lb-prev').addEventListener('click', function() {
+      lbIdx = (lbIdx - 1 + lbImages.length) % lbImages.length;
+      lbUpdate(lbCap.textContent);
+    });
+    document.getElementById('lb-next').addEventListener('click', function() {
+      lbIdx = (lbIdx + 1) % lbImages.length;
+      lbUpdate(lbCap.textContent);
+    });
+
+    lb.addEventListener('click', function(e) {
+      if (e.target === lb) lbClose();
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (!lb.classList.contains('open')) return;
+      if (e.key === 'Escape') lbClose();
+      if (e.key === 'ArrowLeft') { lbIdx = (lbIdx - 1 + lbImages.length) % lbImages.length; lbUpdate(lbCap.textContent); }
+      if (e.key === 'ArrowRight') { lbIdx = (lbIdx + 1) % lbImages.length; lbUpdate(lbCap.textContent); }
+    });
+
+    /* Touch swipe */
+    let tsX = 0;
+    lb.addEventListener('touchstart', function(e) { tsX = e.touches[0].clientX; });
+    lb.addEventListener('touchend', function(e) {
+      const dx = e.changedTouches[0].clientX - tsX;
+      if (Math.abs(dx) < 50) return;
+      if (dx < 0) { lbIdx = (lbIdx + 1) % lbImages.length; }
+      else { lbIdx = (lbIdx - 1 + lbImages.length) % lbImages.length; }
+      lbUpdate(lbCap.textContent);
+    });
+
+    /* ── Open lightbox on card click ── */
+    document.querySelectorAll('.gallery-card[data-project]').forEach(function(card) {
+      card.addEventListener('click', function() {
+        const key = card.dataset.project;
+        const proj = PROJECTS[key];
+        if (!proj) return;
+        lbShow(proj.images, 0, proj.name);
+      });
+    });
+
+    /* ── Filter ── */
+    document.querySelectorAll('.filter-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+        this.classList.add('active');
+        const f = this.dataset.filter;
+        document.querySelectorAll('.gallery-card').forEach(function(card) {
+          const show = f === 'all' || card.dataset.type === f;
+          card.style.display = show ? '' : 'none';
+          /* remove featured class when filtered to avoid orphaned wide card */
+          if (f !== 'all') {
+            card.classList.remove('featured');
+          } else {
+            if (card.dataset.project === 'badamdar') card.classList.add('featured');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

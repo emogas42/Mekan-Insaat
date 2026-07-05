@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Məkan İnşaat MMC ilə əlaqə — Bakı, Azərbaycan. Layihəniz üçün pulsuz məsləhət alın.">
+  <title>Əlaqə — Məkan İnşaat MMC</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="/az/" class="nav-brand">
+        <div class="nav-logo-mark">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M1 15V7L8 2l7 5v8H1z" fill="white" fill-opacity="0.25" stroke="white" stroke-width="1.25" stroke-linejoin="round"/>
+            <path d="M6 15v-5h4v5" stroke="white" stroke-width="1.25" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="nav-logo-text">
+          <span class="nav-logo-name">Məkan İnşaat</span>
+          <span class="nav-logo-sub">MMC · Bakı, Azərbaycan</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/az/">Ana Səhifə</a></li>
+        <li><a href="/az/haqqimizda/">Haqqımızda</a></li>
+        <li><a href="/az/xidmetler/">Xidmətlər</a></li>
+        <li><a href="/az/layiheler/">Layihələr</a></li>
+        <li><a href="/az/elaqe/" class="nav-cta active">Əlaqə</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menyu açmaq">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <button class="mobile-close" id="mobile-close">✕</button>
+    <a href="/az/">Ana Səhifə</a>
+    <a href="/az/haqqimizda/">Haqqımızda</a>
+    <a href="/az/xidmetler/">Xidmətlər</a>
+    <a href="/az/layiheler/">Layihələr</a>
+    <a href="/az/elaqe/" class="active">Əlaqə</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <nav class="breadcrumb">
+        <a href="/az/">Ana Səhifə</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>Əlaqə</span>
+      </nav>
+      <div class="section-tag">Bizimlə Əlaqə</div>
+      <h1 class="page-hero-title">Əlaqə</h1>
+      <p class="page-hero-sub">
+        Layihəniz üçün pulsuz ilkin məsləhət alın. Komandamız hazırdır.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- INFO -->
+        <div class="reveal">
+          <div class="section-tag" style="margin-bottom:2rem">Əlaqə Məlumatları</div>
+
+          <div class="contact-info-group">
+            <div class="contact-info-label">Ünvan</div>
+            <div class="contact-info-value">
+              Bakı şəhəri, Azərbaycan<br>
+              <span style="font-size:0.875rem;color:var(--grey-2)">Ünvan əlavə ediləcək</span>
+            </div>
+          </div>
+
+          <div class="contact-info-group">
+            <div class="contact-info-label">Telefon</div>
+            <div class="contact-info-value">
+              <a href="tel:+994XXXXXXXXX">+994 XX XXX XX XX</a><br>
+              <a href="tel:+994XXXXXXXXX">+994 XX XXX XX XX</a>
+            </div>
+          </div>
+
+          <div class="contact-info-group">
+            <div class="contact-info-label">E-poçt</div>
+            <div class="contact-info-value">
+              <a href="mailto:info@mekaninsaat.az">info@mekaninsaat.az</a>
+            </div>
+          </div>
+
+          <div class="contact-info-group">
+            <div class="contact-info-label">İş saatları</div>
+            <div class="contact-info-value" style="font-size:1rem">
+              Bazar ertəsi – Cümə: 09:00 – 18:00<br>
+              <span style="font-size:0.875rem;color:var(--grey-2)">Şənbə: 10:00 – 14:00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <div class="reveal reveal-delay-1">
+          <h2 class="contact-form-heading">Layihənizi Göndərin</h2>
+
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="name">Ad Soyad *</label>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Adınız" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="phone">Telefon *</label>
+                <input class="form-input" type="tel" id="phone" name="phone" placeholder="+994 XX XXX XX XX" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="email">E-poçt</label>
+              <input class="form-input" type="email" id="email" name="email" placeholder="email@nümunə.az">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="service">Xidmət Növü</label>
+              <select class="form-select" id="service" name="service">
+                <option value="">Seçin...</option>
+                <option value="layihe">Mülki İnşaat Layihəçiliyi</option>
+                <option value="smeta">Smeta Sənədləri</option>
+                <option value="arxitektur">Arxitektura Dizaynı</option>
+                <option value="istirahет">İstirahət Kompleksləri</option>
+                <option value="ekspertiza">Texniki Ekspertiza</option>
+                <option value="diger">Digər</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="message">Mesajınız *</label>
+              <textarea class="form-textarea" id="message" name="message" placeholder="Layihəniz haqqında qısa məlumat verin..." required></textarea>
+            </div>
+
+            <div class="form-submit">
+              <button type="submit" class="btn btn-primary">
+                Göndər
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                  <path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+
+            <div id="success-msg">
+              Müraciətiniz qəbul edildi. Tezliklə sizinlə əlaqə saxlayacağıq.
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- MAP -->
+      <div class="reveal" style="margin-top:5rem">
+        <div class="section-tag" style="margin-bottom:1.5rem">Ofisimizin Yeri</div>
+        <div id="contact-map"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div>
+          <div class="footer-brand-logo">
+            <div class="nav-logo-mark" style="width:28px;height:28px;">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M1 15V7L8 2l7 5v8H1z" fill="white" fill-opacity="0.25" stroke="white" stroke-width="1.25" stroke-linejoin="round"/>
+                <path d="M6 15v-5h4v5" stroke="white" stroke-width="1.25" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="footer-brand-name">Məkan İnşaat</span>
+          </div>
+          <p class="footer-brand-desc">Bakı əsaslı tikinti layihəçiliyi şirkəti. 2009-dan bəri fəaliyyətdəyik.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="WhatsApp">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Şirkət</h5>
+          <ul>
+            <li><a href="/az/haqqimizda/">Haqqımızda</a></li>
+            <li><a href="/az/layiheler/">Layihələr</a></li>
+            <li><a href="/az/elaqe/">Əlaqə</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Xidmətlər</h5>
+          <ul>
+            <li><a href="/az/xidmetler/">Mülki Layihəçilik</a></li>
+            <li><a href="/az/xidmetler/">Smeta Sənədləri</a></li>
+            <li><a href="/az/xidmetler/">Arxitektura Dizaynı</a></li>
+            <li><a href="/az/xidmetler/">Texniki Ekspertiza</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Əlaqə</h5>
+          <div style="display:flex;flex-direction:column;gap:0.875rem;">
+            <div class="footer-contact-item">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .91h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              +994 XX XXX XX XX
+            </div>
+            <div class="footer-contact-item">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              info@mekaninsaat.az
+            </div>
+            <div class="footer-contact-item">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Bakı, Azərbaycan
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2025 Məkan İnşaat MMC. Bütün hüquqlar qorunur.</span>
+        <span>Bakı, Azərbaycan</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Yuxarı qayıt">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="../../js/main.js"></script>
+  <script>
+    /* Contact map */
+    const cmap = L.map('contact-map', {
+      center: [40.4093, 49.8671],
+      zoom: 14,
+      scrollWheelZoom: false
+    });
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '© OpenStreetMap contributors © CARTO',
+      subdomains: 'abcd',
+      maxZoom: 20
+    }).addTo(cmap);
+
+    const pin = L.divIcon({
+      className: '',
+      html: '<div style="width:12px;height:12px;border-radius:50%;background:#1D4ED8;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,.2)"></div>',
+      iconSize: [12, 12],
+      iconAnchor: [6, 6],
+      popupAnchor: [0, -10]
+    });
+
+    L.marker([40.4093, 49.8671], { icon: pin })
+      .addTo(cmap)
+      .bindPopup('<strong style="font-family:sans-serif;font-size:13px">Məkan İnşaat MMC</strong><br><small style="color:#94A3B8">Bakı şəhəri, Azərbaycan</small>', { maxWidth: 200 })
+      .openPopup();
+
+    /* Form submit */
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+      if (!name || !phone || !message) {
+        alert('Zəhmət olmasa məcburi sahələri doldurun.');
+        return;
+      }
+      const msg = document.getElementById('success-msg');
+      msg.style.display = 'block';
+      this.reset();
+      setTimeout(() => { msg.style.display = 'none'; }, 6000);
+    });
+  </script>
+</body>
+</html>
