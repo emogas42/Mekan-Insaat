@@ -514,6 +514,9 @@ ul { list-style: none; }
   border-radius: 8px;
   background: var(--grey-3);
   cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
 .proj-card:nth-child(1) { grid-column: span 7; }
@@ -1894,6 +1897,74 @@ ul { list-style: none; }
 .proj-img-zoom svg { color: white; }
 
 /* ══════════════════════════════════════════
+   PROJECT DESCRIPTION SECTION
+══════════════════════════════════════════ */
+.project-desc {
+  padding-block: 5rem;
+  border-bottom: 1px solid var(--grey-3);
+  background: var(--bg);
+}
+
+.project-desc .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: start;
+}
+
+.project-desc-text h2 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin: 1rem 0 1.5rem;
+  color: var(--black);
+}
+
+.project-desc-text p {
+  font-size: 0.9375rem;
+  line-height: 1.85;
+  color: var(--grey-1);
+  margin-bottom: 1rem;
+}
+
+.project-desc-text p:last-child { margin-bottom: 0; }
+
+.project-specs {
+  border: 1px solid var(--grey-3);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--white);
+}
+
+.project-spec-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--grey-3);
+  gap: 1.5rem;
+}
+
+.project-spec-item:last-child { border-bottom: none; }
+
+.project-spec-label {
+  color: var(--grey-2);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-size: 0.625rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.project-spec-value {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--black);
+  text-align: right;
+}
+
+/* ══════════════════════════════════════════
    HERO VISUAL — image panel
 ══════════════════════════════════════════ */
 .hero-visual {
@@ -2045,6 +2116,7 @@ ul { list-style: none; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 
   .about-story .container { grid-template-columns: 1fr; gap: 3rem; }
+  .project-desc .container { grid-template-columns: 1fr; gap: 3rem; }
   .about-stats .container { grid-template-columns: repeat(2, 1fr); }
   .about-stat:nth-child(2) { border-right: none; }
   .about-stat:nth-child(3) { border-top: 1px solid var(--grey-3); padding-top: 1.5rem; padding-left: 0; }
