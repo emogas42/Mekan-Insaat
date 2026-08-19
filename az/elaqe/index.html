@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Məkan İnşaat MMC ilə əlaqə — Bakı, Azərbaycan. Layihəniz üçün pulsuz məsləhət alın.">
-  <title>Əlaqə — Məkan İnşaat MMC</title>
+  <link rel="icon" type="image/png" href="../../assets/icons/logo_bgremove.png">
+  <meta name="description" content="Məkan İnşaat MMC-də işləmək istəyirsiniz? Müraciət formasını doldurun və CV-nizi göndərin.">
+  <title>Karyera — Məkan İnşaat MMC</title>
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
@@ -67,10 +68,10 @@
         <span class="breadcrumb-sep">/</span>
         <span>Əlaqə</span>
       </nav>
-      <div class="section-tag">Bizimlə Əlaqə</div>
-      <h1 class="page-hero-title">Əlaqə</h1>
+      <div class="section-tag">İşçi Müraciəti</div>
+      <h1 class="page-hero-title">Komandamıza Qoşulun</h1>
       <p class="page-hero-sub">
-        Layihəniz üçün pulsuz ilkin məsləhət alın. Komandamız hazırdır.
+        Məkan İnşaat MMC-də çalışmaq istəyirsiniz? Aşağıdakı formu doldurun, CV-nizi əlavə edin — biz sizinlə əlaqə saxlayacağıq.
       </p>
     </div>
   </section>
@@ -95,36 +96,46 @@
           <div class="contact-info-group">
             <div class="contact-info-label">Telefon</div>
             <div class="contact-info-value">
-              <a href="tel:+994XXXXXXXXX">+994 XX XXX XX XX</a><br>
-              <a href="tel:+994XXXXXXXXX">+994 XX XXX XX XX</a>
+              <a href="tel:+994XXXXXXXXX">+994 51 230 86 16</a><br>
+              <a href="tel:+994XXXXXXXXX">+994 51 230 86 16</a>
             </div>
           </div>
 
           <div class="contact-info-group">
             <div class="contact-info-label">E-poçt</div>
             <div class="contact-info-value">
-              <a href="mailto:info@mekaninsaat.az">info@mekaninsaat.az</a>
+              <a href="mailto:info@mekan-inshaat.az">info@mekan-inshaat.az</a>
             </div>
           </div>
 
           <div class="contact-info-group">
             <div class="contact-info-label">İş saatları</div>
             <div class="contact-info-value" style="font-size:1rem">
-              Bazar ertəsi – Cümə: 09:00 – 18:00<br>
-              <span style="font-size:0.875rem;color:var(--grey-2)">Şənbə: 10:00 – 14:00</span>
+              Bazar ertəsi – Cümə: 09:00 – 18:00
             </div>
           </div>
         </div>
 
         <!-- FORM -->
         <div class="reveal reveal-delay-1">
-          <h2 class="contact-form-heading">Layihənizi Göndərin</h2>
+          <h2 class="contact-form-heading">İşçi Müraciəti</h2>
 
-          <form id="contact-form" novalidate>
+          <form id="worker-form" novalidate>
+            <!-- ============================================================
+                 WEB3FORMS CONFIGURATION
+                 1. Get your free access key at https://web3forms.com
+                 2. Replace "YOUR_ACCESS_KEY_HERE" with your actual key
+                 ============================================================ -->
+            <input type="hidden" name="access_key" value="3530b60f-32ae-4a2b-be6b-656c50cdcff1">
+            <input type="hidden" name="subject" value="Yeni İşçi Müraciəti — Məkan İnşaat MMC">
+            <input type="hidden" name="from_name" value="Məkan İnşaat Müraciət Formu">
+            <!-- Honeypot spam protection — do not remove -->
+            <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
             <div class="form-row">
               <div class="form-group">
                 <label class="form-label" for="name">Ad Soyad *</label>
-                <input class="form-input" type="text" id="name" name="name" placeholder="Adınız" required>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Adınız və soyadınız" required>
               </div>
               <div class="form-group">
                 <label class="form-label" for="phone">Telefon *</label>
@@ -133,30 +144,49 @@
             </div>
 
             <div class="form-group">
-              <label class="form-label" for="email">E-poçt</label>
-              <input class="form-input" type="email" id="email" name="email" placeholder="email@nümunə.az">
+              <label class="form-label" for="email">E-poçt *</label>
+              <input class="form-input" type="email" id="email" name="email" placeholder="email@nümunə.az" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="profession">Peşə / İxtisas *</label>
+                <input class="form-input" type="text" id="profession" name="profession" placeholder="Məs: Qaynaqçı, Mühəndis, Ustası..." required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="experience">İş Təcrübəsi *</label>
+                <select class="form-select" id="experience" name="experience" required>
+                  <option value="">Seçin...</option>
+                  <option value="0-1 il">0 – 1 il</option>
+                  <option value="1-3 il">1 – 3 il</option>
+                  <option value="3-5 il">3 – 5 il</option>
+                  <option value="5+ il">5+ il</option>
+                </select>
+              </div>
             </div>
 
             <div class="form-group">
-              <label class="form-label" for="service">Xidmət Növü</label>
-              <select class="form-select" id="service" name="service">
+              <label class="form-label" for="work_type">İş Növü *</label>
+              <select class="form-select" id="work_type" name="work_type" required>
                 <option value="">Seçin...</option>
-                <option value="layihe">Mülki İnşaat Layihəçiliyi</option>
-                <option value="smeta">Smeta Sənədləri</option>
-                <option value="arxitektur">Arxitektura Dizaynı</option>
-                <option value="istirahет">İstirahət Kompleksləri</option>
-                <option value="ekspertiza">Texniki Ekspertiza</option>
-                <option value="diger">Digər</option>
+                <option value="Tam Ştat">Tam Ştat</option>
+                <option value="Part-time">Part-time</option>
+                <option value="Layihə Əsaslı">Layihə Əsaslı</option>
               </select>
             </div>
 
             <div class="form-group">
-              <label class="form-label" for="message">Mesajınız *</label>
-              <textarea class="form-textarea" id="message" name="message" placeholder="Layihəniz haqqında qısa məlumat verin..." required></textarea>
+              <label class="form-label" for="message">Əlavə Məlumat</label>
+              <textarea class="form-textarea" id="message" name="message" placeholder="Özünüz haqqında qısa məlumat, əvvəlki işləriniz, tamamladığınız layihələr..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="cv">CV (PDF, DOC, DOCX)</label>
+              <input class="form-input" type="file" id="cv" name="attachment" accept=".pdf,.doc,.docx" style="padding:0.6rem 1rem;cursor:pointer">
             </div>
 
             <div class="form-submit">
-              <button type="submit" class="btn btn-primary">
+              <button type="submit" class="btn btn-primary" id="submit-btn">
                 Göndər
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
                   <path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -164,8 +194,11 @@
               </button>
             </div>
 
-            <div id="success-msg">
+            <div id="success-msg" style="display:none;color:#166534;background:#dcfce7;border:1px solid #bbf7d0;border-radius:6px;padding:0.875rem 1rem;margin-top:1rem;font-size:0.9rem">
               Müraciətiniz qəbul edildi. Tezliklə sizinlə əlaqə saxlayacağıq.
+            </div>
+            <div id="error-msg" style="display:none;color:#991b1b;background:#fee2e2;border:1px solid #fecaca;border-radius:6px;padding:0.875rem 1rem;margin-top:1rem;font-size:0.9rem">
+              Xəta baş verdi. Zəhmət olmasa yenidən cəhd edin və ya birbaşa email göndərin.
             </div>
           </form>
         </div>
@@ -189,15 +222,15 @@
           <div class="footer-logo-wrap">
             <img src="../../assets/images/logos/logo.png" alt="Məkan İnşaat MMC" class="footer-logo-img">
           </div>
-          <p class="footer-brand-desc">Bakı əsaslı tikinti layihəçiliyi şirkəti. 2009-dan bəri fəaliyyətdəyik.</p>
+          <p class="footer-brand-desc">Bakı əsaslı tikinti layihəçiliyi şirkəti. 2015-ci ildən bəri fəaliyyətdəyik.</p>
           <div class="footer-social">
-            <a href="#" aria-label="Instagram">
+            <a href="https://www.instagram.com/mekan.inshaat/" target="_blank" rel="noopener" aria-label="Instagram">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
             </a>
-            <a href="#" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/company/m%C9%99kan-i%CC%87n%C5%9Faat-mmc/" target="_blank" rel="noopener" aria-label="LinkedIn">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
             </a>
-            <a href="#" aria-label="WhatsApp">
+            <a href="https://wa.me/994512308616" target="_blank" rel="noopener" aria-label="WhatsApp">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
             </a>
           </div>
@@ -227,11 +260,11 @@
           <div style="display:flex;flex-direction:column;gap:0.875rem;">
             <div class="footer-contact-item">
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .91h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-              +994 XX XXX XX XX
+              +994 51 230 86 16
             </div>
             <div class="footer-contact-item">
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              info@mekaninsaat.az
+              info@mekan-inshaat.az
             </div>
             <div class="footer-contact-item">
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -249,6 +282,7 @@
     </div>
   </footer>
 
+  <a class="whatsapp-float" href="https://wa.me/994512308616" target="_blank" rel="noopener" aria-label="WhatsApp ile elaqe"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
   <button class="scroll-top" id="scroll-top" aria-label="Yuxarı qayıt">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
   </button>
@@ -282,21 +316,51 @@
       .bindPopup('<strong style="font-family:\'Space Grotesk\',sans-serif;font-size:13px;color:#0F172A">Məkan İnşaat MMC</strong><br><small style="color:#94A3B8;font-family:\'Space Grotesk\',sans-serif">31c Cavadxan küç., Bakı 1014</small>', { maxWidth: 240 })
       .openPopup();
 
-    /* Form submit */
-    document.getElementById('contact-form').addEventListener('submit', function (e) {
+    /* Worker form — Web3Forms submission */
+    document.getElementById('worker-form').addEventListener('submit', async function (e) {
       e.preventDefault();
-      const name = document.getElementById('name').value.trim();
-      const phone = document.getElementById('phone').value.trim();
-      const message = document.getElementById('message').value.trim();
-      if (!name || !phone || !message) {
-        alert('Zəhmət olmasa məcburi sahələri doldurun.');
-        return;
+
+      const required = ['name', 'phone', 'email', 'profession', 'experience', 'work_type'];
+      for (const id of required) {
+        if (!document.getElementById(id).value.trim()) {
+          alert('Zəhmət olmasa bütün məcburi sahələri (*) doldurun.');
+          document.getElementById(id).focus();
+          return;
+        }
       }
-      const msg = document.getElementById('success-msg');
-      msg.style.display = 'block';
-      this.reset();
-      setTimeout(() => { msg.style.display = 'none'; }, 6000);
+
+      const btn = document.getElementById('submit-btn');
+      btn.disabled = true;
+      btn.textContent = 'Göndərilir...';
+
+      const successEl = document.getElementById('success-msg');
+      const errorEl   = document.getElementById('error-msg');
+      successEl.style.display = 'none';
+      errorEl.style.display   = 'none';
+
+      try {
+        const res  = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          body: new FormData(this)
+        });
+        const data = await res.json();
+
+        if (data.success) {
+          successEl.style.display = 'block';
+          this.reset();
+          successEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        } else {
+          errorEl.style.display = 'block';
+        }
+      } catch (_) {
+        errorEl.style.display = 'block';
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = 'Göndər <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+      }
     });
   </script>
 </body>
 </html>
+
+
