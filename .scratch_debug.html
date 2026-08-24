@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <section class="reels-section">
+    <div class="container reels-inner">
+      <div class="reels-video" style="background:red;"></div>
+      <div class="reels-content">
+        <div class="section-tag">TAG</div>
+        <h2 class="section-heading">Heading text here</h2>
+        <p class="section-sub">Sub text</p>
+      </div>
+    </div>
+  </section>
+  <script>
+    window.addEventListener('load', () => {
+      const c = document.querySelector('.reels-inner');
+      const v = document.querySelector('.reels-video');
+      document.title = 'W:' + window.innerWidth + ' container:' + c.getBoundingClientRect().width + ' video:' + v.getBoundingClientRect().width + ' scrollW:' + document.documentElement.scrollWidth;
+    });
+  </script>
+</body>
+</html>

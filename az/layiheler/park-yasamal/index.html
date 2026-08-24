@@ -133,7 +133,7 @@
           <div class="footer-contact-item"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Bakı, Azərbaycan</div>
         </div></div>
       </div>
-      <div class="footer-bottom"><span>© 2025 Məkan İnşaat MMC. Bütün hüquqlar qorunur.</span><span>Bakı, Azərbaycan</span></div>
+      <div class="footer-bottom"><span>© <span id="copy-year"></span> Məkan İnşaat MMC. Bütün hüquqlar qorunur.</span><span>Bakı, Azərbaycan</span></div>
     </div>
   </footer>
 
@@ -167,6 +167,7 @@
     lb.addEventListener('touchstart',e=>{tsX=e.changedTouches[0].clientX;},{passive:true});
     lb.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-tsX;if(Math.abs(dx)<40)return;if(dx<0){lbIdx=(lbIdx+1)%IMAGES.length;lbUpdate();}else{lbIdx=(lbIdx-1+IMAGES.length)%IMAGES.length;lbUpdate();}},{passive:true});
   </script>
+  <script src="//code.jivosite.com/widget/gLEBTWZTw0" async></script>
 </body>
 </html>
 
