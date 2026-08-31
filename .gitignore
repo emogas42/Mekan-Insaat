@@ -1,0 +1,36 @@
+# ─── SİRLƏR — heç vaxt commit edilməməlidir ─────────────────────────────────
+config.php
+mekan-config.php
+*.env
+.env*
+*.key
+*.pem
+
+# ─── Server tərəfi PHP ──────────────────────────────────────────────────────
+# GitHub Pages PHP-ni icra etmir, mənbə kodu kimi paylayır.
+# Bu fayllar hostinqə FTP ilə ayrıca yüklənir, repoda saxlanmır.
+*.php
+phpmailer/
+
+# ─── İş və debug faylları ───────────────────────────────────────────────────
+.scratch_*
+*.code-workspace
+
+# ─── Şəkil ehtiyat nüsxələri ────────────────────────────────────────────────
+*_ORIGINAL/
+*_backup/
+images_ORIGINAL/
+
+# ─── Arxiv və verilənlər ────────────────────────────────────────────────────
+*.zip
+*.rar
+*.7z
+*.sql
+*.bak
+
+# ─── OS və redaktor ─────────────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

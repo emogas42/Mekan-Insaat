@@ -1,0 +1,19 @@
+# GitHub Pages (Jekyll) konfiqurasiyası.
+# İkinci müdafiə xətti: .gitignore-a baxmayaraq hər hansı server faylı
+# təsadüfən repoya düşərsə, Pages onu DƏRC ETMƏSİN.
+# GitHub Pages PHP-ni icra etmir — mənbə kodu kimi paylayır, ona görə
+# .php fayllarının dərc olunması şifrə sızıntısı deməkdir.
+
+exclude:
+  - "*.php"
+  - config.php
+  - mekan-config.php
+  - phpmailer/
+  - "*.env"
+  - "*.txt.bak"
+  - .gitignore
+  - .htaccess
+  - Proyektler/
+  - "*.code-workspace"
+
+# robots.txt və sitemap.xml dərc olunmalıdır — exclude siyahısında deyillər.

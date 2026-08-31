@@ -1,130 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Replace YOUR-DOMAIN with your actual domain before publishing -->
+  <!-- Ana ve esas sehifeler -->
   <url>
-    <loc>https://YOUR-DOMAIN/az/</loc>
+    <loc>https://www.mekan-inshaat.az/az/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/haqqimizda/</loc>
+    <loc>https://www.mekan-inshaat.az/az/elaqe/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/xidmetler/</loc>
+    <loc>https://www.mekan-inshaat.az/az/haqqimizda/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/</loc>
+    <loc>https://www.mekan-inshaat.az/az/karyera/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/elaqe/</loc>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/az/xidmetler/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/az/mexfilik-siyaseti/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Xidmet sehifeleri -->
+  <url>
+    <loc>https://www.mekan-inshaat.az/az/xidmetler/arxitektura-dizayni/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <!-- Project detail pages -->
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/badamdar/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/xidmetler/istirahet-kompleksleri/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/az/xidmetler/mulki-layihecilik/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/az/xidmetler/smeta-senedleri/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/az/xidmetler/texniki-ekspertiza/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- Layihe sehifeleri -->
+  <url>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/agdas-medeniyyet/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/anama/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/apart_hotel/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/azadliq/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/ar-mina/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/cennet-park/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/asan_samaxi/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/ecemi/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/azadliq/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/inqlab/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/bileceri-2/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/qobu/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/cennet-park/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/yap/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/city-garden/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/zerdabi/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/ecemi/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/ar-mina/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/elet/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/agdas-medeniyyet/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/inqlab/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/mingecevir-tibb/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/ismayilli-kitabxana/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/bileceri-2/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/meyseri_restorani/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/ismayilli-kitabxana/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/mingecevir-tibb/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/tovuz/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/park-yasamal/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/yevlax/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/qobu/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/city-garden/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/sky-home/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/park-yasamal/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/swiss_hotel/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/sky-home/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/tovuz/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN/az/layiheler/elet/</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/yap/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/yevlax/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/az/layiheler/zerdabi/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 </urlset>

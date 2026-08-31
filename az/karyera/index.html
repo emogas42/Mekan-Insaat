@@ -12,12 +12,16 @@
   <meta property="og:site_name" content="Məkan İnşaat MMC">
   <meta property="og:title" content="Karyera — Məkan İnşaat MMC">
   <meta property="og:description" content="Məkan İnşaat MMC-də işləmək istəyirsiniz? Müraciət formasını doldurun və CV-nizi göndərin.">
+  <meta property="og:url" content="https://www.mekan-inshaat.az/az/karyera/">
+  <meta property="og:image" content="https://www.mekan-inshaat.az/assets/images/hero/certyoj1.jpg">
+
+  <link rel="canonical" href="https://www.mekan-inshaat.az/az/karyera/">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="../../css/main.css">
 </head>
 <body>
@@ -26,7 +30,7 @@
   <nav class="navbar" id="navbar">
     <div class="container">
       <a href="../" class="nav-brand">
-        <img src="../../assets/images/logos/logo.png" alt="Məkan İnşaat MMC" class="nav-logo-img">
+        <img src="../../assets/images/logos/logo.png" width="458" height="409" alt="Məkan İnşaat MMC" class="nav-logo-img" decoding="async">
       </a>
       <ul class="nav-links">
         <li><a href="../">Ana Səhifə</a></li>
@@ -165,6 +169,14 @@
               <input class="form-input" type="file" id="cv" name="attachment" accept=".pdf,.doc,.docx" style="padding:0.6rem 1rem;cursor:pointer">
             </div>
 
+            <div class="form-consent" id="consent-wrap">
+              <input type="checkbox" id="consent" name="consent" value="1">
+              <label for="consent">
+                <a href="../mexfilik-siyaseti/" target="_blank" rel="noopener">Məxfilik Siyasəti</a> ilə tanış oldum və
+                şəxsi məlumatlarımın bu siyasətə uyğun işlənilməsinə razılıq verirəm. <span style="color:#dc2626">*</span>
+              </label>
+            </div>
+
             <div class="form-submit">
               <button type="submit" class="btn btn-primary" id="submit-btn">
                 Göndər
@@ -200,7 +212,7 @@
 
         <div>
           <div class="footer-logo-wrap">
-            <img src="../../assets/images/logos/logo.png" alt="Məkan İnşaat MMC" class="footer-logo-img">
+            <img src="../../assets/images/logos/logo.png" width="458" height="409" alt="Məkan İnşaat MMC" class="footer-logo-img" decoding="async">
           </div>
           <p class="footer-brand-desc">Bakı əsaslı tikinti layihəçiliyi şirkəti. 2015-ci ildən bəri fəaliyyətdəyik.</p>
           <div class="footer-social">
@@ -258,7 +270,7 @@
 
       <div class="footer-bottom">
         <span>© <span id="copy-year"></span> Məkan İnşaat MMC. Bütün hüquqlar qorunur.</span>
-        <span>Bakı, Azərbaycan</span>
+        <span><a href="../mexfilik-siyaseti/">Məxfilik Siyasəti</a> · Bakı, Azərbaycan</span>
       </div>
     </div>
   </footer>
@@ -268,7 +280,7 @@
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
   </button>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="../../js/main.js"></script>
   <script>
     const cmap = L.map('contact-map', {
@@ -307,6 +319,15 @@
           return;
         }
       }
+
+      const consentEl = document.getElementById('consent');
+      if (!consentEl.checked) {
+        document.getElementById('consent-wrap').classList.add('is-invalid');
+        alert('Davam etmək üçün Məxfilik Siyasəti ilə razılığınızı təsdiqləyin.');
+        consentEl.focus();
+        return;
+      }
+      document.getElementById('consent-wrap').classList.remove('is-invalid');
 
       const btn = document.getElementById('submit-btn');
       btn.disabled = true;
