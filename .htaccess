@@ -15,12 +15,17 @@ Options -Indexes
 # .git qovluğuna çıxışın bağlanması
 RedirectMatch 404 /\.git
 
-# ─── HTTPS-ə yönləndirmə ────────────────────────────────────────────────────
+# ─── HTTPS və www yönləndirməsi ─────────────────────────────────────────────
+# Canonical ünvan: https://www.mekan-inshaat.az
+# Bütün digər variantlar (http, www-suz) bir addımda ora yönləndirilir.
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteCond %{HTTPS} !=on
-  RewriteCond %{HTTP:X-Forwarded-Proto} !https
-  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https [OR]
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+  RewriteRule ^(.*)$ https://www.%1/$1 [R=301,L]
 </IfModule>
 
 # ─── Təhlükəsizlik başlıqları ───────────────────────────────────────────────

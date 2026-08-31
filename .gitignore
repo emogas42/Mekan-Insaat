@@ -12,6 +12,10 @@ mekan-config.php
 *.php
 phpmailer/
 
+# ─── Daxili iş faylları (sayta aid deyil, ictimai olmamalıdır) ──────────────
+Proyektler/
+xidmetler.txt
+
 # ─── İş və debug faylları ───────────────────────────────────────────────────
 .scratch_*
 *.code-workspace
