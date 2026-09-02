@@ -6,7 +6,16 @@
   <title>Məkan İnşaat MMC</title>
 </head>
 <body>
-  <script>window.location.replace('az/');</script>
+  <script>
+    var langs = (navigator.languages || [navigator.language || 'az']).map(function (l) { return l.toLowerCase(); });
+    var target = 'az/';
+    for (var i = 0; i < langs.length; i++) {
+      if (langs[i].indexOf('ru') === 0) { target = 'ru/'; break; }
+      if (langs[i].indexOf('en') === 0) { target = 'en/'; break; }
+      if (langs[i].indexOf('az') === 0) { target = 'az/'; break; }
+    }
+    window.location.replace(target);
+  </script>
   <script src="//code.jivosite.com/widget/gLEBTWZTw0" async></script>
 </body>
 </html>

@@ -37,6 +37,30 @@
     });
   }
 
+  /* ── LANG SWITCH ── */
+  document.querySelectorAll('.lang-switch').forEach(sw => {
+    const btn = sw.querySelector('.lang-current');
+    if (!btn) return;
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const isOpen = sw.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+  });
+
+  document.addEventListener('click', () => {
+    document.querySelectorAll('.lang-switch.open').forEach(sw => {
+      sw.classList.remove('open');
+      sw.querySelector('.lang-current').setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.lang-switch.open').forEach(sw => sw.classList.remove('open'));
+    }
+  });
+
   /* ── SCROLL REVEAL ── */
   const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -60,21 +84,6 @@
 
   /* ── COPYRIGHT YEAR ── */
   document.querySelectorAll('#copy-year').forEach(el => el.textContent = new Date().getFullYear());
-
-  /* ── FAQ ACCORDION ── */
-  document.querySelectorAll('.faq-q').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const expanded = btn.getAttribute('aria-expanded') === 'true';
-      document.querySelectorAll('.faq-q').forEach(b => {
-        b.setAttribute('aria-expanded', 'false');
-        b.nextElementSibling.style.maxHeight = null;
-      });
-      if (!expanded) {
-        btn.setAttribute('aria-expanded', 'true');
-        btn.nextElementSibling.style.maxHeight = btn.nextElementSibling.scrollHeight + 'px';
-      }
-    });
-  });
 
   /* ── VIDEO GALLERY ── */
   const videoLightbox = document.getElementById('video-lightbox');

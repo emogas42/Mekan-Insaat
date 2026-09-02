@@ -15,10 +15,9 @@
     zoomControl: false,
   });
 
-  /* Tile layer — CartoDB dark style matches brand */
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/">CARTO</a>',
-    subdomains: 'abcd',
+  /* Tile layer — Stadia Alidade Smooth (free, no API key required) */
+  L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+    attribution: '© <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> © <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> © OpenStreetMap contributors',
     maxZoom: 20,
   }).addTo(map);
 

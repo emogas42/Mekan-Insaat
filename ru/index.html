@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="../assets/icons/logo_bgremove.png">
+  <meta name="description" content="Məkan İnşaat MMC — строительное проектирование, архитектурный дизайн и сметная документация в Баку. С 2015 года.">
+  <title>Məkan İnşaat MMC — Архитектура и Проектирование</title>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Məkan İnşaat MMC">
+  <meta property="og:title" content="Məkan İnşaat MMC — Архитектура и Проектирование">
+  <meta property="og:description" content="Məkan İnşaat MMC — строительное проектирование, архитектурный дизайн и сметная документация в Баку. С 2015 года.">
+  <meta property="og:url" content="https://www.mekan-inshaat.az/ru/">
+  <meta property="og:image" content="https://www.mekan-inshaat.az/assets/images/projects/asan_samaxi/AsSamaxi1.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Məkan İnşaat MMC — Архитектура и Проектирование">
+  <meta name="twitter:description" content="Məkan İnşaat MMC — строительное проектирование, архитектурный дизайн и сметная документация в Баку. С 2015 года.">
+  <meta name="twitter:image" content="https://www.mekan-inshaat.az/assets/images/projects/asan_samaxi/AsSamaxi1.jpg">
+
+  <!-- Canonical — uncomment and fill in when domain is confirmed -->
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GeneralContractor",
+    "name": "Məkan İnşaat MMC",
+    "description": "Строительное проектирование, архитектурный дизайн и сметная документация в Баку.",
+    "foundingDate": "2015",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Баку",
+      "addressCountry": "AZ"
+    },
+    "areaServed": "AZ",
+    "knowsLanguage": "ru"
+  }
+  </script>
+
+  <link rel="canonical" href="https://www.mekan-inshaat.az/ru/">
+  <link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/">
+  <link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/">
+  <link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/">
+  <link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="./" class="nav-brand">
+        <img src="../assets/images/logos/logo.png" width="458" height="409" alt="Məkan İnşaat MMC" class="nav-logo-img" decoding="async">
+      </a>
+      <ul class="nav-links">
+        <li><a href="./" class="active">Главная</a></li>
+        <li><a href="haqqimizda/">О нас</a></li>
+        <li><a href="xidmetler/">Услуги</a></li>
+        <li><a href="layiheler/">Проекты</a></li>
+        <li><a href="elaqe/" class="nav-cta">Контакты</a></li>
+      </ul>
+      <div class="lang-switch">
+        <button class="lang-current" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Выбрать язык">RU<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="lang-dropdown">
+          <a href="/az/" hreflang="az">Azərbaycan</a>
+          <a href="/en/" hreflang="en">English</a>
+        </div>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <button class="mobile-close" id="mobile-close">✕</button>
+    <a href="./" class="active">Главная</a>
+    <a href="haqqimizda/">О нас</a>
+    <a href="xidmetler/">Услуги</a>
+    <a href="layiheler/">Проекты</a>
+    <a href="elaqe/">Контакты</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-body">
+
+      <!-- Left — text -->
+      <div>
+        <div class="hero-tag">Баку · С 2015 года</div>
+        <h1>
+          Разработка<br>
+          Проектной<br>
+          <span class="accent">Документации</span> —<br>
+          От Эскиза до Реализации.
+        </h1>
+        <p class="hero-desc">
+          Полное проектирование жилых, коммерческих и административных зданий — от архитектурного эскиза
+          до конструктивного рабочего проекта, от сметной документации до полного соответствия нормам АзТН.
+        </p>
+        <div class="hero-actions">
+          <a href="layiheler/" class="btn btn-primary btn-lg">
+            Смотреть проекты
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="haqqimizda/" class="btn btn-secondary btn-lg">О нас</a>
+        </div>
+      </div>
+
+      <!-- Right — image visual panel -->
+      <div class="hero-visual">
+
+        <!-- Main video with overlaid stats -->
+        <div class="hero-img-main">
+          <video
+            src="../assets/videoes/reels-teaser.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            aria-label="Тур по офису Məkan İnşaat MMC"
+          ></video>
+          <div class="hero-img-overlay">
+            <div class="hero-img-stat">
+              <div class="hero-img-stat-num">11<span>лет</span></div>
+              <div class="hero-img-stat-label">На рынке</div>
+            </div>
+            <div class="hero-img-stat">
+              <div class="hero-img-stat-num">25<span>+</span></div>
+              <div class="hero-img-stat-label">Видов документов</div>
+            </div>
+            <div class="hero-img-stat">
+              <div class="hero-img-stat-num">8<span>+</span></div>
+              <div class="hero-img-stat-label">Городов</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom row — second image + stats card -->
+        <div class="hero-img-bottom">
+          <div class="hero-img-sec">
+            <img
+              src="../assets/images/projects/asan_samaxi/AsSamaxi1.jpg" width="1280" height="720"
+              alt="ASAN Xidmət Шамахы — Məkan İnşaat MMC"
+              fetchpriority="high" loading="eager" decoding="async">
+          </div>
+          <div class="hero-stat-card">
+            <div class="hero-stat-card-num">98<span>%</span></div>
+            <div class="hero-stat-card-label">Удовлетворённость клиентов</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bottom trust strip -->
+    <div class="hero-strip">
+      <div class="hero-strip-inner">
+        <div class="hero-strip-item">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M2 7l4 4 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Архитектурный эскизный проект
+        </div>
+        <div class="hero-strip-item">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M2 7l4 4 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Конструктивный рабочий проект
+        </div>
+        <div class="hero-strip-item">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M2 7l4 4 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Сметная документация
+        </div>
+        <div class="hero-strip-item">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M2 7l4 4 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Проект инженерных систем
+        </div>
+        <div class="hero-strip-item">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M2 7l4 4 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Проект инсоляции
+        </div>
+        <div class="hero-strip-item">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M2 7l4 4 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Соответствие нормам АзТН
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO LIGHTBOX -->
+  <div class="video-lightbox" id="video-lightbox" aria-hidden="true">
+    <div class="video-lightbox-backdrop" data-close></div>
+    <div class="video-lightbox-body">
+      <button type="button" class="video-lightbox-close" data-close aria-label="Закрыть">✕</button>
+      <video id="video-lightbox-player" controls playsinline></video>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services-section">
+    <div class="container">
+      <div class="services-header">
+        <div class="reveal">
+          <div class="section-tag">Услуги</div>
+          <h2 class="section-heading">Чем мы занимаемся</h2>
+        </div>
+        <div class="reveal reveal-delay-1">
+          <p class="section-sub">
+            Комплексные проектные услуги, охватывающие все этапы строительства —
+            от первоначального эскиза до технической документации.
+          </p>
+          <a href="xidmetler/" class="btn btn-secondary" style="margin-top:1.5rem">
+            Все услуги
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="services-grid reveal">
+
+        <a href="xidmetler/mulki-layihecilik/" class="service-card">
+          <div class="service-card-num">01</div>
+          <div class="service-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3 21h18M3 7l9-4 9 4M4 7v14M20 7v14M9 21v-7h6v7"/>
+            </svg>
+          </div>
+          <h3>Гражданское строительное проектирование</h3>
+          <p>Полное архитектурно-конструктивное проектирование жилых, коммерческих и административных зданий.</p>
+        </a>
+
+        <a href="xidmetler/smeta-senedleri/" class="service-card">
+          <div class="service-card-num">02</div>
+          <div class="service-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+            </svg>
+          </div>
+          <h3>Сметная документация</h3>
+          <p>Точная технико-экономическая смета на основе действующей нормативной базы.</p>
+        </a>
+
+        <a href="xidmetler/arxitektura-dizayni/" class="service-card">
+          <div class="service-card-num">03</div>
+          <div class="service-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+            </svg>
+          </div>
+          <h3>Архитектурный дизайн</h3>
+          <p>Современные архитектурные решения — дизайн фасадов, планировка пространства, творческие концепции.</p>
+        </a>
+
+        <a href="xidmetler/mulki-layihecilik/" class="service-card">
+          <div class="service-card-num">04</div>
+          <div class="service-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+          </div>
+          <h3>Проектирование административных зданий</h3>
+          <p>Профессиональная проектная документация для офисов, бизнес-центров и государственных зданий.</p>
+        </a>
+
+        <a href="xidmetler/istirahet-kompleksleri/" class="service-card">
+          <div class="service-card-num">05</div>
+          <div class="service-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/>
+            </svg>
+          </div>
+          <h3>Комплексы отдыха</h3>
+          <p>Проектирование отелей, кемпингов, дачных домов, бассейнов и рекреационной инфраструктуры.</p>
+        </a>
+
+        <a href="xidmetler/texniki-ekspertiza/" class="service-card">
+          <div class="service-card-num">06</div>
+          <div class="service-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+          </div>
+          <h3>Техническая экспертиза</h3>
+          <p>Оценка технического состояния существующих зданий, проверка проектной документации и аудит.</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects-section">
+    <div class="container">
+      <div class="projects-header reveal">
+        <div>
+          <div class="section-tag">Портфолио</div>
+          <h2 class="section-heading">Избранные проекты</h2>
+        </div>
+        <a href="layiheler/" class="btn btn-secondary">
+          Все проекты
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Featured card — span 7, full first row height -->
+        <a class="proj-card reveal" href="layiheler/park-yasamal/">
+          <img src="../assets/images/projects/park-yasamal/2.jpg" width="1600" height="1066" alt="ЖК Park Yasamal" loading="lazy" decoding="async">
+          <div class="proj-overlay">
+            <div class="proj-type">Жилой комплекс · Баку</div>
+            <div class="proj-name">ЖК Park Yasamal</div>
+            <div class="proj-view">
+              Смотреть проект
+              <svg width="12" height="12" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <!-- Side card — span 5 -->
+        <a class="proj-card reveal reveal-delay-1" href="layiheler/asan_samaxi/">
+          <img src="../assets/images/projects/asan_samaxi/AsSamaxi1.jpg" width="1280" height="720" alt="ASAN Xidmət Шамахы" loading="lazy" decoding="async">
+          <div class="proj-overlay">
+            <div class="proj-type">Общественное здание · Шамахы</div>
+            <div class="proj-name">ASAN Xidmət Шамахы</div>
+            <div class="proj-view">
+              Смотреть проект
+              <svg width="12" height="12" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <!-- Bottom row — 3 equal cards -->
+        <a class="proj-card reveal" href="layiheler/agdas-medeniyyet/">
+          <img src="../assets/images/projects/agdas-medeniyyet/1.jpg" width="1280" height="672" alt="Дом культуры Агдаш" loading="lazy" decoding="async">
+          <div class="proj-overlay">
+            <div class="proj-type">Культура · Агдаш</div>
+            <div class="proj-name">Дом культуры Агдаш</div>
+            <div class="proj-view">
+              Смотреть проект
+              <svg width="12" height="12" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <a class="proj-card reveal reveal-delay-1" href="layiheler/swiss_hotel/">
+          <img src="../assets/images/projects/swiss_hotel/SW1.jpeg" width="1125" height="633" alt="Проект Swiss Hotel" loading="lazy" decoding="async">
+          <div class="proj-overlay">
+            <div class="proj-type">Отель · Баку</div>
+            <div class="proj-name">Проект Swiss Hotel</div>
+            <div class="proj-view">
+              Смотреть проект
+              <svg width="12" height="12" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <a class="proj-card reveal reveal-delay-2" href="layiheler/elet/">
+          <img src="../assets/images/projects/elet/1.jpg" width="1600" height="900" alt="Жилое здание, посёлок Алят" loading="lazy" decoding="async">
+          <div class="proj-overlay">
+            <div class="proj-type">Жилой · Абшеронский р-н</div>
+            <div class="proj-name">Жилое здание, посёлок Алят</div>
+            <div class="proj-view">
+              Смотреть проект
+              <svg width="12" height="12" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO GALLERY -->
+  <section class="video-section">
+    <div class="container">
+      <div class="video-header reveal">
+        <div class="section-tag">Медиа</div>
+        <h2 class="section-heading">За кадром</h2>
+        <p class="section-sub">Реальные кадры наших проектов, офиса и команды.</p>
+      </div>
+
+      <div class="video-grid reveal">
+        <button type="button" class="video-card" data-video="../assets/videoes/ugurlu-layiheler.mp4" aria-label="Смотреть видео — Успешные проекты">
+          <video src="../assets/videoes/ugurlu-layiheler.mp4" muted playsinline preload="metadata"></video>
+          <span class="video-card-play" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </span>
+          <span class="video-card-label">Успешные проекты</span>
+        </button>
+
+        <button type="button" class="video-card" data-video="../assets/videoes/pesekarliq-detallar.mp4" aria-label="Смотреть видео — Профессионализм в деталях">
+          <video src="../assets/videoes/pesekarliq-detallar.mp4" muted playsinline preload="metadata"></video>
+          <span class="video-card-play" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </span>
+          <span class="video-card-label">Профессионализм в деталях</span>
+        </button>
+
+        <button type="button" class="video-card" data-video="../assets/videoes/ofis-turu.mp4" aria-label="Смотреть видео — Тур по офису">
+          <video src="../assets/videoes/ofis-turu.mp4" muted playsinline preload="metadata"></video>
+          <span class="video-card-play" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </span>
+          <span class="video-card-label">Тур по офису</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERS — TƏRƏFDAŞLAR -->
+  <section class="partners-section">
+    <div class="container">
+      <div class="partners-head reveal">
+        <div class="section-tag">Партнёры</div>
+        <h2 class="section-heading">Надёжные партнёры</h2>
+        <p class="section-sub">Успешное сотрудничество с государственными структурами, международными компаниями и ведущими местными предприятиями.</p>
+      </div>
+    </div>
+
+    <div class="partners-outer">
+      <!-- Track is duplicated (SET 1 + SET 2) for seamless infinite loop -->
+      <div class="partners-track">
+
+        <!-- ═══════════ SET 1 ═══════════ -->
+        <div class="partner-item partner-item--logo-only">
+          <img src="../assets/images/logos/iodico-logo.png" width="1200" height="823" alt="iodico" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item partner-item--logo-only">
+          <img src="../assets/images/logos/melissa_group_logo.png" width="300" height="300" alt="Melissa Group" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item">
+          <img src="../assets/images/logos/Medeniyyet_ve_turizm_agentliyi_logo.png" width="656" height="467" alt="Агентство по культуре и туризму" loading="lazy" decoding="async">
+          <span class="partner-label">Агентство по культуре и туризму</span>
+        </div>
+        <div class="partner-item partner-item--logo-only">
+          <img src="../assets/images/logos/azpetrol_logo.jpg" width="216" height="163" alt="AZPETROL" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item">
+          <img src="../assets/images/logos/dtx_logo.png" width="238" height="240" alt="Служба государственной безопасности" loading="lazy" decoding="async">
+          <span class="partner-label">DTX</span>
+        </div>
+        <div class="partner-item partner-item--logo-only">
+          <img src="../assets/images/logos/Geotest_logo.webp" width="1600" height="1600" alt="GeoTest" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item partner-item--logo-only">
+          <img src="../assets/images/logos/Anama_logo.jpg" width="744" height="412" alt="ANAMA" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item">
+          <img src="../assets/images/logos/Xarici_kesfiyyat_xidmeti_logo.jpg" width="371" height="377" alt="Служба внешней разведки" loading="lazy" decoding="async">
+          <span class="partner-label">XKX</span>
+        </div>
+        <div class="partner-item">
+          <img src="../assets/images/logos/AZARBAIJAN_POST_NEWSPAPER_logo.png" width="224" height="143" alt="Азерпочта" loading="lazy" decoding="async">
+          <span class="partner-label">Азерпочта</span>
+        </div>
+        <div class="partner-item">
+          <img src="../assets/images/logos/Azerbaycam_Memarliq_ve_Insaat_Universiteti_logo.png" width="196" height="169" alt="Азербайджанский университет архитектуры и строительства" loading="lazy" decoding="async">
+          <span class="partner-label">Университет архитектуры</span>
+        </div>
+        <div class="partner-item partner-item--logo-only">
+          <img src="../assets/images/logos/kristal_logo.png" width="500" height="101" alt="Kristal" loading="lazy" decoding="async">
+        </div>
+        <div class="partner-item partner-item--logo-only">
+          <img src="../assets/images/logos/sibalux_logo.jpg" width="604" height="272" alt="SIBALUX" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item partner-item--logo-only">
+          <img src="../assets/images/logos/afez_logo.jpg" width="644" height="310" alt="Alat Free Economic Zone" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item partner-item--logo-only">
+          <img src="../assets/images/logos/elite_structures_logos.png" width="1232" height="646" alt="elite structures" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item">
+          <img src="../assets/images/logos/Sehiyye_nazirliyi_logo.jpg" width="447" height="447" alt="Министерство здравоохранения" loading="lazy" decoding="async">
+          <span class="partner-label">Министерство здравоохранения</span>
+        </div>
+        <div class="partner-item partner-item--logo-only">
+          <img src="../assets/images/logos/azp_logo.jpeg" width="1600" height="614" alt="AZP" loading="lazy" decoding="async">
+        </div>
+        <div class="partner-item partner-item--logo-only">
+          <img src="../assets/images/logos/capital_constructions_logo.png" width="158" height="44" alt="Capital Constructions" loading="lazy" decoding="async">
+        </div>
+
+        <!-- ═══════════ SET 2 — exact duplicate for infinite loop ═══════════ -->
+        <div class="partner-item partner-item--logo-only" aria-hidden="true">
+          <img src="../assets/images/logos/iodico-logo.png" width="1200" height="823" alt="" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item partner-item--logo-only" aria-hidden="true">
+          <img src="../assets/images/logos/melissa_group_logo.png" width="300" height="300" alt="" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item" aria-hidden="true">
+          <img src="../assets/images/logos/Medeniyyet_ve_turizm_agentliyi_logo.png" width="656" height="467" alt="" loading="lazy" decoding="async">
+          <span class="partner-label">Агентство по культуре и туризму</span>
+        </div>
+        <div class="partner-item partner-item--logo-only" aria-hidden="true">
+          <img src="../assets/images/logos/azpetrol_logo.jpg" width="216" height="163" alt="" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item" aria-hidden="true">
+          <img src="../assets/images/logos/dtx_logo.png" width="238" height="240" alt="" loading="lazy" decoding="async">
+          <span class="partner-label">DTX</span>
+        </div>
+        <div class="partner-item partner-item--logo-only" aria-hidden="true">
+          <img src="../assets/images/logos/Geotest_logo.webp" width="1600" height="1600" alt="" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item partner-item--logo-only" aria-hidden="true">
+          <img src="../assets/images/logos/Anama_logo.jpg" width="744" height="412" alt="" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item" aria-hidden="true">
+          <img src="../assets/images/logos/Xarici_kesfiyyat_xidmeti_logo.jpg" width="371" height="377" alt="" loading="lazy" decoding="async">
+          <span class="partner-label">XKX</span>
+        </div>
+        <div class="partner-item" aria-hidden="true">
+          <img src="../assets/images/logos/AZARBAIJAN_POST_NEWSPAPER_logo.png" width="224" height="143" alt="" loading="lazy" decoding="async">
+          <span class="partner-label">Азерпочта</span>
+        </div>
+        <div class="partner-item" aria-hidden="true">
+          <img src="../assets/images/logos/Azerbaycam_Memarliq_ve_Insaat_Universiteti_logo.png" width="196" height="169" alt="" loading="lazy" decoding="async">
+          <span class="partner-label">Университет архитектуры</span>
+        </div>
+        <div class="partner-item partner-item--logo-only" aria-hidden="true">
+          <img src="../assets/images/logos/kristal_logo.png" width="500" height="101" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="partner-item partner-item--logo-only" aria-hidden="true">
+          <img src="../assets/images/logos/sibalux_logo.jpg" width="604" height="272" alt="" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item partner-item--logo-only" aria-hidden="true">
+          <img src="../assets/images/logos/afez_logo.jpg" width="644" height="310" alt="" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item partner-item--logo-only" aria-hidden="true">
+          <img src="../assets/images/logos/elite_structures_logos.png" width="1232" height="646" alt="" loading="lazy" decoding="async">
+                  </div>
+        <div class="partner-item" aria-hidden="true">
+          <img src="../assets/images/logos/Sehiyye_nazirliyi_logo.jpg" width="447" height="447" alt="" loading="lazy" decoding="async">
+          <span class="partner-label">Министерство здравоохранения</span>
+        </div>
+        <div class="partner-item partner-item--logo-only" aria-hidden="true">
+          <img src="../assets/images/logos/azp_logo.jpeg" width="1600" height="614" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="partner-item partner-item--logo-only" aria-hidden="true">
+          <img src="../assets/images/logos/capital_constructions_logo.png" width="158" height="44" alt="" loading="lazy" decoding="async">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DARK SECTION — philosophy & values -->
+  <section class="dark-section">
+    <div class="container">
+      <div class="dark-quote reveal">
+        «Строительство — это не только бетон и арматура.
+        Это искусство,
+        <span class="hl">придающее форму</span>
+        человеческой жизни».
+      </div>
+
+      <div class="dark-values reveal reveal-delay-1">
+        <div class="dark-value">
+          <div class="dark-value-num">01</div>
+          <div>
+            <div class="dark-value-title">Отраслевой опыт</div>
+            <div class="dark-value-desc">Более 15 лет глубокого знания специфических требований строительного сектора Азербайджана.</div>
+          </div>
+        </div>
+        <div class="dark-value">
+          <div class="dark-value-num">02</div>
+          <div>
+            <div class="dark-value-title">Индивидуальный подход</div>
+            <div class="dark-value-desc">Уникальное решение для каждого клиента — на основе реального диалога, а не шаблонов.</div>
+          </div>
+        </div>
+        <div class="dark-value">
+          <div class="dark-value-num">03</div>
+          <div>
+            <div class="dark-value-title">Международные стандарты</div>
+            <div class="dark-value-desc">Оптимальный баланс между европейскими техническими нормами и азербайджанским законодательством.</div>
+          </div>
+        </div>
+        <div class="dark-value">
+          <div class="dark-value-num">04</div>
+          <div>
+            <div class="dark-value-title">Своевременная сдача</div>
+            <div class="dark-value-desc">Полное соблюдение договорных сроков. Планирование — неотъемлемая часть работы.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BAKU MAP -->
+  <section class="map-section">
+    <div class="container">
+      <div class="map-header reveal">
+        <div>
+          <div class="section-tag">География</div>
+          <h2 class="section-heading">География наших проектов</h2>
+          <p class="section-sub">Наши проекты в Баку и различных регионах Азербайджана.</p>
+        </div>
+        <a href="layiheler/" class="btn btn-secondary">
+          Все проекты
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+      <div id="baku-map" class="reveal"></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-inner">
+
+        <h2 class="cta-heading reveal">
+          Начните проект<br>вместе с
+          <span class="hl">нами.</span>
+        </h2>
+
+        <div class="cta-right reveal reveal-delay-1">
+          <p class="cta-desc">
+            Свяжитесь с нами, чтобы обсудить ваш проект, получить консультацию
+            или просто познакомиться.
+          </p>
+          <div class="cta-details">
+            <div class="cta-detail">
+              <span class="cta-label">Телефон</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .91h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+              </svg>
+              +994 51 230 86 16
+            </div>
+            <div class="cta-detail">
+              <span class="cta-label">Эл. почта</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+              </svg>
+              info@mekan-inshaat.az
+            </div>
+            <div class="cta-detail">
+              <span class="cta-label">Адрес</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
+              Баку, Азербайджан
+            </div>
+          </div>
+          <a href="elaqe/" class="btn btn-primary">
+            Форма связи
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div>
+          <div class="footer-logo-wrap">
+            <img src="../assets/images/logos/logo.png" width="458" height="409" alt="Məkan İnşaat MMC" class="footer-logo-img" decoding="async">
+          </div>
+          <p class="footer-brand-desc">Проектное бюро из Баку. Мы не строим — мы готовим техническую документацию для вашего будущего здания. С 2015 года.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/mekan.inshaat/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/m%C9%99kan-i%CC%87n%C5%9Faat-mmc/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://wa.me/994512308616" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Компания</h5>
+          <ul>
+            <li><a href="haqqimizda/">О нас</a></li>
+            <li><a href="layiheler/">Проекты</a></li>
+            <li><a href="elaqe/">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Услуги</h5>
+          <ul>
+            <li><a href="xidmetler/">Гражданское проектирование</a></li>
+            <li><a href="xidmetler/">Сметная документация</a></li>
+            <li><a href="xidmetler/">Архитектурный дизайн</a></li>
+            <li><a href="xidmetler/">Техническая экспертиза</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Контакты</h5>
+          <div style="display:flex;flex-direction:column;gap:0.875rem;">
+            <div class="footer-contact-item">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .91h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              +994 51 230 86 16
+            </div>
+            <div class="footer-contact-item">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              info@mekan-inshaat.az
+            </div>
+            <div class="footer-contact-item">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Баку, Азербайджан
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="copy-year"></span> Məkan İnşaat MMC. Все права защищены.</span>
+        <span><a href="mexfilik-siyaseti/">Политика конфиденциальности</a> · Баку, Азербайджан</span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/994512308616" target="_blank" rel="noopener" aria-label="Связаться через WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+  <button class="scroll-top" id="scroll-top" aria-label="Наверх">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="../js/main.js"></script>
+  <script>
+    /* Baku map */
+    const bmap = L.map('baku-map', {
+      center: [40.4, 48.5],
+      zoom: 7.5,
+      scrollWheelZoom: false,
+      zoomControl: true
+    });
+
+    L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+      attribution: '© <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> © <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> © OpenStreetMap contributors',
+      maxZoom: 20
+    }).addTo(bmap);
+
+    function mkPin(color) {
+      return L.divIcon({
+        className: '',
+        html: '<div style="width:10px;height:10px;border-radius:50%;background:' + color + ';border:2px solid white;box-shadow:0 1px 6px rgba(0,0,0,.25)"></div>',
+        iconSize: [10, 10],
+        iconAnchor: [5, 5],
+        popupAnchor: [0, -8]
+      });
+    }
+
+    const popupOpts = { maxWidth: 240 };
+    function popup(title, sub) {
+      return '<div style="font-family:\'Space Grotesk\',sans-serif;padding:2px 0"><strong style="font-size:13px;color:#0F172A">' + title + '</strong><br><span style="font-size:11px;color:#94A3B8">' + sub + '</span></div>';
+    }
+
+    /* Office / Компания */
+    L.marker([40.4175935, 49.8160349], { icon: mkPin('#1D4ED8') })
+      .addTo(bmap)
+      .bindPopup(popup('Məkan İnşaat MMC', 'ул. Джавадхана, 31c, Баку 1014'), popupOpts)
+      .openPopup();
+
+    /* Real project locations — Plus Code → WGS84 decoded */
+    var projects = [
+      /* ── Регионы ─────────────────────────────────────────────────── */
+      { lat: 40.6316, lng: 48.6390, name: 'Центр ASAN Xidmət — Шамахы',              sub: 'Шоссе Баку–Шамахы–Евлах, Шамахинский р-н' },
+      { lat: 40.7865, lng: 48.1545, name: 'Исмаиллинская центральная библиотека',    sub: 'г. Исмаиллы' },
+      { lat: 40.6385, lng: 47.4640, name: 'Агдашский районный центр культуры',       sub: 'г. Агдаш' },
+      { lat: 40.7650, lng: 47.0583, name: 'Мингячевирский медицинский колледж',      sub: 'г. Мингячевир' },
+      { lat: 40.9942, lng: 45.6305, name: 'Административное здание Товузского района', sub: 'г. Товуз' },
+      { lat: 40.5987, lng: 47.1489, name: 'Дворец имени Гейдара Алиева, г. Евлах',   sub: 'г. Евлах' },
+      { lat: 40.651,  lng: 48.571,  name: 'Ресторан Мейсери',                        sub: 'с. Мейсери, Шамахинский р-н' },
+      /* ── Район Баку ─────────────────────────────────────────────── */
+      { lat: 39.979,  lng: 49.429,  name: 'Комплекс Алят',                           sub: 'пос. Алят, Гарадагский р-н, Баку' },
+      { lat: 40.344,  lng: 49.754,  name: 'Жилое здание, посёлок Гобу',              sub: 'пос. Гобу, Абшеронский р-н, Баку' },
+      { lat: 40.461,  lng: 49.661,  name: 'ЖК Джаннат Парк',                         sub: '14-й км Ашагы-Гюздекской дороги, Баку 0112' },
+      { lat: 40.4494, lng: 49.7906, name: 'Многоквартирный дом, посёлок Биладжары',  sub: 'пос. Биладжары, Бинагадинский р-н, Баку' },
+      { lat: 40.376,  lng: 49.844,  name: 'Административное здание YAP',             sub: 'Баку' },
+      { lat: 40.394,  lng: 49.841,  name: 'Резиденция Azadliq',                      sub: 'просп. Азадлыг, 105, Баку' },
+      { lat: 40.414,  lng: 49.844,  name: 'Административное здание ANAMA',           sub: 'Баку' },
+      { lat: 40.369,  lng: 49.797,  name: 'ЖК Park Yasamal',                         sub: 'ул. Мустагиль, Ясамальский р-н, Баку' },
+      { lat: 40.391,  lng: 49.811,  name: 'Жилое здание Sky Home',                   sub: 'Баку' },
+      { lat: 40.396,  lng: 49.823,  name: 'Многоквартирный дом на ул. Ингилаб',      sub: 'ул. Ингилаб, Баку' },
+      { lat: 40.407,  lng: 49.851,  name: 'Многоквартирный дом на ул. Зардаби',      sub: 'ул. Зардаби, Насиминский р-н, Баку' },
+      { lat: 40.4040, lng: 49.8633, name: 'Многоквартирный дом, Насиминский р-н',    sub: 'ул. Гусейнбалы Алиева, 3224, Баку' },
+      { lat: 40.411,  lng: 49.876,  name: 'City Garden — Наримановский р-н',         sub: 'ул. Ислам Абышов, Наримановский р-н, Баку' },
+    ];
+
+    projects.forEach(function(p) {
+      L.marker([p.lat, p.lng], { icon: mkPin('#06B6D4') })
+        .addTo(bmap)
+        .bindPopup(popup(p.name, p.sub), popupOpts);
+    });
+  </script>
+  <script src="//code.jivosite.com/widget/gLEBTWZTw0" async></script>
+</body>
+</html>

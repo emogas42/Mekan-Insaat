@@ -1,175 +1,924 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <!-- Ana ve esas sehifeler -->
   <url>
     <loc>https://www.mekan-inshaat.az/az/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/elaqe/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/elaqe/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/elaqe/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/elaqe/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/elaqe/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/elaqe/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/elaqe/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/elaqe/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/elaqe/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/elaqe/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/elaqe/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/elaqe/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/elaqe/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/elaqe/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/elaqe/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/haqqimizda/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/haqqimizda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/haqqimizda/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/haqqimizda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/haqqimizda/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/haqqimizda/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/haqqimizda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/haqqimizda/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/haqqimizda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/haqqimizda/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/haqqimizda/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/haqqimizda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/haqqimizda/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/haqqimizda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/haqqimizda/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/karyera/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/karyera/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/karyera/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/karyera/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/karyera/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/karyera/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/karyera/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/karyera/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/karyera/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/karyera/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/karyera/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/karyera/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/karyera/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/karyera/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/karyera/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/xidmetler/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/xidmetler/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/xidmetler/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/mexfilik-siyaseti/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/mexfilik-siyaseti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/mexfilik-siyaseti/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/mexfilik-siyaseti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/mexfilik-siyaseti/"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/mexfilik-siyaseti/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/mexfilik-siyaseti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/mexfilik-siyaseti/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/mexfilik-siyaseti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/mexfilik-siyaseti/"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/mexfilik-siyaseti/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/mexfilik-siyaseti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/mexfilik-siyaseti/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/mexfilik-siyaseti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/mexfilik-siyaseti/"/>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <!-- Xidmet sehifeleri -->
   <url>
     <loc>https://www.mekan-inshaat.az/az/xidmetler/arxitektura-dizayni/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/arxitektura-dizayni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/arxitektura-dizayni/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/arxitektura-dizayni/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/arxitektura-dizayni/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/xidmetler/arxitektura-dizayni/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/arxitektura-dizayni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/arxitektura-dizayni/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/arxitektura-dizayni/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/arxitektura-dizayni/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/xidmetler/arxitektura-dizayni/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/arxitektura-dizayni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/arxitektura-dizayni/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/arxitektura-dizayni/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/arxitektura-dizayni/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/xidmetler/istirahet-kompleksleri/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/istirahet-kompleksleri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/istirahet-kompleksleri/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/istirahet-kompleksleri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/istirahet-kompleksleri/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/xidmetler/istirahet-kompleksleri/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/istirahet-kompleksleri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/istirahet-kompleksleri/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/istirahet-kompleksleri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/istirahet-kompleksleri/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/xidmetler/istirahet-kompleksleri/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/istirahet-kompleksleri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/istirahet-kompleksleri/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/istirahet-kompleksleri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/istirahet-kompleksleri/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/xidmetler/mulki-layihecilik/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/mulki-layihecilik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/mulki-layihecilik/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/mulki-layihecilik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/mulki-layihecilik/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/xidmetler/mulki-layihecilik/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/mulki-layihecilik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/mulki-layihecilik/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/mulki-layihecilik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/mulki-layihecilik/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/xidmetler/mulki-layihecilik/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/mulki-layihecilik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/mulki-layihecilik/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/mulki-layihecilik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/mulki-layihecilik/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/xidmetler/smeta-senedleri/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/smeta-senedleri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/smeta-senedleri/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/smeta-senedleri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/smeta-senedleri/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/xidmetler/smeta-senedleri/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/smeta-senedleri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/smeta-senedleri/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/smeta-senedleri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/smeta-senedleri/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/xidmetler/smeta-senedleri/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/smeta-senedleri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/smeta-senedleri/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/smeta-senedleri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/smeta-senedleri/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/xidmetler/texniki-ekspertiza/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/texniki-ekspertiza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/texniki-ekspertiza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/texniki-ekspertiza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/texniki-ekspertiza/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/xidmetler/texniki-ekspertiza/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/texniki-ekspertiza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/texniki-ekspertiza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/texniki-ekspertiza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/texniki-ekspertiza/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/xidmetler/texniki-ekspertiza/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/xidmetler/texniki-ekspertiza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/xidmetler/texniki-ekspertiza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/xidmetler/texniki-ekspertiza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/xidmetler/texniki-ekspertiza/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Layihe sehifeleri -->
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/agdas-medeniyyet/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/agdas-medeniyyet/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/agdas-medeniyyet/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/agdas-medeniyyet/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/agdas-medeniyyet/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/agdas-medeniyyet/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/agdas-medeniyyet/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/agdas-medeniyyet/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/agdas-medeniyyet/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/agdas-medeniyyet/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/agdas-medeniyyet/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/agdas-medeniyyet/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/agdas-medeniyyet/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/agdas-medeniyyet/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/agdas-medeniyyet/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/apart_hotel/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/apart_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/apart_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/apart_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/apart_hotel/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/apart_hotel/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/apart_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/apart_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/apart_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/apart_hotel/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/apart_hotel/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/apart_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/apart_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/apart_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/apart_hotel/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/ar-mina/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/ar-mina/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/ar-mina/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/ar-mina/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/ar-mina/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/ar-mina/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/ar-mina/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/ar-mina/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/ar-mina/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/ar-mina/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/ar-mina/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/ar-mina/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/ar-mina/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/ar-mina/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/ar-mina/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/asan_samaxi/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/asan_samaxi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/asan_samaxi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/asan_samaxi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/asan_samaxi/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/asan_samaxi/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/asan_samaxi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/asan_samaxi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/asan_samaxi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/asan_samaxi/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/asan_samaxi/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/asan_samaxi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/asan_samaxi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/asan_samaxi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/asan_samaxi/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/azadliq/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/azadliq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/azadliq/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/azadliq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/azadliq/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/azadliq/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/azadliq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/azadliq/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/azadliq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/azadliq/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/azadliq/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/azadliq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/azadliq/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/azadliq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/azadliq/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/bileceri-2/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/bileceri-2/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/bileceri-2/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/bileceri-2/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/bileceri-2/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/bileceri-2/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/bileceri-2/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/bileceri-2/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/bileceri-2/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/bileceri-2/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/bileceri-2/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/bileceri-2/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/bileceri-2/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/bileceri-2/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/bileceri-2/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/cennet-park/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/cennet-park/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/cennet-park/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/cennet-park/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/cennet-park/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/cennet-park/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/cennet-park/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/cennet-park/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/cennet-park/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/cennet-park/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/cennet-park/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/cennet-park/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/cennet-park/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/cennet-park/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/cennet-park/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/city-garden/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/city-garden/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/city-garden/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/city-garden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/city-garden/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/city-garden/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/city-garden/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/city-garden/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/city-garden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/city-garden/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/city-garden/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/city-garden/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/city-garden/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/city-garden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/city-garden/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/ecemi/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/ecemi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/ecemi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/ecemi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/ecemi/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/ecemi/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/ecemi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/ecemi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/ecemi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/ecemi/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/ecemi/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/ecemi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/ecemi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/ecemi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/ecemi/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/elet/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/elet/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/elet/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/elet/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/elet/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/elet/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/elet/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/elet/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/elet/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/elet/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/elet/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/elet/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/elet/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/elet/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/elet/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/inqlab/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/inqlab/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/inqlab/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/inqlab/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/inqlab/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/inqlab/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/inqlab/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/inqlab/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/inqlab/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/inqlab/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/inqlab/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/inqlab/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/inqlab/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/inqlab/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/inqlab/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/ismayilli-kitabxana/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/ismayilli-kitabxana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/ismayilli-kitabxana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/ismayilli-kitabxana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/ismayilli-kitabxana/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/ismayilli-kitabxana/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/ismayilli-kitabxana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/ismayilli-kitabxana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/ismayilli-kitabxana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/ismayilli-kitabxana/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/ismayilli-kitabxana/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/ismayilli-kitabxana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/ismayilli-kitabxana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/ismayilli-kitabxana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/ismayilli-kitabxana/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/meyseri_restorani/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/meyseri_restorani/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/meyseri_restorani/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/meyseri_restorani/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/meyseri_restorani/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/meyseri_restorani/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/meyseri_restorani/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/meyseri_restorani/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/meyseri_restorani/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/meyseri_restorani/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/meyseri_restorani/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/meyseri_restorani/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/meyseri_restorani/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/meyseri_restorani/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/meyseri_restorani/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/mingecevir-tibb/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/mingecevir-tibb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/mingecevir-tibb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/mingecevir-tibb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/mingecevir-tibb/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/mingecevir-tibb/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/mingecevir-tibb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/mingecevir-tibb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/mingecevir-tibb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/mingecevir-tibb/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/mingecevir-tibb/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/mingecevir-tibb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/mingecevir-tibb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/mingecevir-tibb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/mingecevir-tibb/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/park-yasamal/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/park-yasamal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/park-yasamal/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/park-yasamal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/park-yasamal/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/park-yasamal/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/park-yasamal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/park-yasamal/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/park-yasamal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/park-yasamal/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/park-yasamal/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/park-yasamal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/park-yasamal/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/park-yasamal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/park-yasamal/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/qobu/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/qobu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/qobu/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/qobu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/qobu/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/qobu/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/qobu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/qobu/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/qobu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/qobu/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/qobu/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/qobu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/qobu/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/qobu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/qobu/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/sky-home/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/sky-home/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/sky-home/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/sky-home/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/sky-home/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/sky-home/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/sky-home/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/sky-home/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/sky-home/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/sky-home/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/sky-home/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/sky-home/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/sky-home/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/sky-home/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/sky-home/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/swiss_hotel/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/swiss_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/swiss_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/swiss_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/swiss_hotel/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/swiss_hotel/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/swiss_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/swiss_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/swiss_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/swiss_hotel/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/swiss_hotel/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/swiss_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/swiss_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/swiss_hotel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/swiss_hotel/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/tovuz/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/tovuz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/tovuz/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/tovuz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/tovuz/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/tovuz/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/tovuz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/tovuz/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/tovuz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/tovuz/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/tovuz/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/tovuz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/tovuz/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/tovuz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/tovuz/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/yap/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/yap/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/yap/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/yap/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/yap/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/yap/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/yap/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/yap/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/yap/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/yap/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/yap/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/yap/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/yap/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/yap/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/yap/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/yevlax/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/yevlax/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/yevlax/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/yevlax/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/yevlax/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/yevlax/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/yevlax/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/yevlax/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/yevlax/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/yevlax/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/yevlax/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/yevlax/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/yevlax/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/yevlax/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/yevlax/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.mekan-inshaat.az/az/layiheler/zerdabi/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/zerdabi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/zerdabi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/zerdabi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/zerdabi/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/en/layiheler/zerdabi/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/zerdabi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/zerdabi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/zerdabi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/zerdabi/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.mekan-inshaat.az/ru/layiheler/zerdabi/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://www.mekan-inshaat.az/az/layiheler/zerdabi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mekan-inshaat.az/en/layiheler/zerdabi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mekan-inshaat.az/ru/layiheler/zerdabi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mekan-inshaat.az/az/layiheler/zerdabi/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
