@@ -41,7 +41,7 @@
         <li><a href="../haqqimizda/">Haqqımızda</a></li>
         <li><a href="../xidmetler/">Xidmətlər</a></li>
         <li><a href="../layiheler/">Layihələr</a></li>
-        <li><a href="../elaqe/" class="nav-cta">Əlaqə</a></li>
+        <li><a href="../elaqe/">Əlaqə</a></li>
       </ul>
       <div class="lang-switch">
         <button class="lang-current" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Dil seçin">AZ<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
@@ -94,8 +94,8 @@
           <div class="contact-info-group">
             <div class="contact-info-label">Ünvan</div>
             <div class="contact-info-value">
-              31c Cavadxan küçəsi<br>
-              Bakı 1014, Azərbaycan
+              Bakı şəhəri, Nəsimi rayonu, Cavadxan,<br>
+              ev 31C, 3243-cü məhəllə, AZ1111
             </div>
           </div>
 
@@ -126,6 +126,11 @@
           <h2 class="contact-form-heading">İşçi Müraciəti</h2>
 
           <form id="worker-form" novalidate>
+            <div class="hp-field" aria-hidden="true">
+              <label for="hp_note">Bu sahəni boş buraxın</label>
+              <input type="text" id="hp_note" name="hp_note" tabindex="-1" autocomplete="off">
+            </div>
+            <input type="hidden" name="form_ts" value="">
 
             <div class="form-row">
               <div class="form-group">
@@ -225,7 +230,7 @@
           <div class="footer-logo-wrap">
             <img src="../../assets/images/logos/logo.png" width="458" height="409" alt="Məkan İnşaat MMC" class="footer-logo-img" decoding="async">
           </div>
-          <p class="footer-brand-desc">Bakı əsaslı tikinti layihəçiliyi şirkəti. 2015-ci ildən bəri fəaliyyətdəyik.</p>
+          <p class="footer-brand-desc">Bakı şəhərində fəaliyyət göstərən layihələndirmə şirkəti olaraq, 2015-ci ildən etibarən tikinti layihələrinin hazırlanması və texniki sənədləşdirilməsi sahəsində fəaliyyət göstəririk.</p>
           <div class="footer-social">
             <a href="https://www.instagram.com/mekan.inshaat/" target="_blank" rel="noopener" aria-label="Instagram">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
@@ -252,9 +257,9 @@
         <div class="footer-col">
           <h5>Xidmətlər</h5>
           <ul>
-            <li><a href="../xidmetler/">Mülki Layihəçilik</a></li>
+            <li><a href="../xidmetler/">Mülki Layihələndirmə</a></li>
             <li><a href="../xidmetler/">Smeta Sənədləri</a></li>
-            <li><a href="../xidmetler/">Arxitektura Dizaynı</a></li>
+            <li><a href="../xidmetler/">Memarlıq və Dizayn</a></li>
             <li><a href="../xidmetler/">Texniki Ekspertiza</a></li>
           </ul>
         </div>
@@ -299,10 +304,12 @@
       zoom: 16,
       scrollWheelZoom: false
     });
+    cmap.attributionControl.setPrefix('Leaflet');
 
-    L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
-      attribution: '© <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> © <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> © OpenStreetMap contributors',
-      maxZoom: 20
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors',
+      subdomains: 'abc',
+      maxZoom: 19
     }).addTo(cmap);
 
     const pin = L.divIcon({
@@ -315,7 +322,7 @@
 
     L.marker([40.4175935, 49.8160349], { icon: pin })
       .addTo(cmap)
-      .bindPopup('<strong style="font-family:\'Space Grotesk\',sans-serif;font-size:13px;color:#0F172A">Məkan İnşaat MMC</strong><br><small style="color:#94A3B8;font-family:\'Space Grotesk\',sans-serif">31c Cavadxan küç., Bakı 1014</small>', { maxWidth: 240 })
+      .bindPopup('<strong style="font-family:\'Space Grotesk\',sans-serif;font-size:13px;color:#0F172A">Məkan İnşaat MMC</strong><br><small style="color:#94A3B8;font-family:\'Space Grotesk\',sans-serif">Cavadxan, ev 31C, Bakı AZ1111</small>', { maxWidth: 240 })
       .openPopup();
 
     document.getElementById('worker-form').addEventListener('submit', async function (e) {

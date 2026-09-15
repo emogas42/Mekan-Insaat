@@ -14,12 +14,14 @@
     scrollWheelZoom: false,
     zoomControl: false,
   });
+  map.attributionControl.setPrefix('Leaflet');
 
-  /* Tile layer — CartoDB Positron (free, no API key or domain auth required) */
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors © <a href="https://carto.com/" target="_blank">CARTO</a>',
-    subdomains: 'abcd',
-    maxZoom: 20,
+  /* Tile layer — OpenStreetMap standard (free, no API key required).
+     Desaturated to a light, tidy grayscale via .leaflet-tile-pane filter in main.css. */
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors',
+    subdomains: 'abc',
+    maxZoom: 19,
   }).addTo(map);
 
   /* Zoom control — bottom right */

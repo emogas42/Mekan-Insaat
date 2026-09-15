@@ -142,18 +142,8 @@ ul { list-style: none; }
 }
 
 .nav-links a:hover { color: var(--black); background: var(--grey-4); }
-.nav-links a.active { color: var(--blue); font-weight: 500; }
-
-.nav-cta {
-  background: var(--blue);
-  color: white !important;
-  padding: 0.5rem 1.125rem !important;
-  border-radius: 6px;
-  font-weight: 500 !important;
-  font-size: 0.875rem !important;
-  transition: background 0.2s !important;
-}
-.nav-cta:hover { background: var(--blue-hover) !important; color: white !important; }
+.nav-links a.active { background: var(--blue); color: white; font-weight: 500; }
+.nav-links a.active:hover { background: var(--blue-hover); color: white; }
 
 /* Language switch */
 .lang-switch {
@@ -955,7 +945,7 @@ ul { list-style: none; }
   font-size: 0.875rem;
   line-height: 1.7;
   color: var(--grey-1);
-  max-width: 28ch;
+  max-width: 40ch;
   margin-bottom: 1.5rem;
 }
 
@@ -980,6 +970,10 @@ ul { list-style: none; }
   border-color: var(--blue);
   color: var(--blue);
   background: var(--blue-bg);
+}
+
+.footer-col {
+  margin-top: 94px;
 }
 
 .footer-col h5 {
@@ -1682,6 +1676,16 @@ ul { list-style: none; }
 
 .form-group { margin-bottom: 1.5rem; }
 
+/* Honeypot — botlar üçün yem, insanlara görünmür */
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1795,6 +1799,7 @@ ul { list-style: none; }
    MAP
 ══════════════════════════════════════════ */
 .leaflet-container { border-radius: 10px; }
+.leaflet-tile-pane { filter: grayscale(1) contrast(1.08) brightness(1.12); }
 .leaflet-popup-content-wrapper {
   font-family: var(--font) !important;
   border-radius: 8px !important;
@@ -2554,6 +2559,7 @@ ul { list-style: none; }
   .cta-inner { grid-template-columns: 1fr; gap: 3rem; }
 
   .footer-grid { grid-template-columns: 1fr 1fr; }
+  .footer-col { margin-top: 0; }
 
   .about-story .container { grid-template-columns: 1fr; gap: 3rem; }
   .project-desc .container { grid-template-columns: 1fr; gap: 3rem; }

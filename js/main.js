@@ -82,6 +82,9 @@
     scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   }
 
+  /* ── ANTI-SPAM: FORM TIMESTAMP ── */
+  document.querySelectorAll('input[name="form_ts"]').forEach(el => { el.value = Date.now(); });
+
   /* ── COPYRIGHT YEAR ── */
   document.querySelectorAll('#copy-year').forEach(el => el.textContent = new Date().getFullYear());
 
