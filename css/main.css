@@ -2747,16 +2747,13 @@ ul { list-style: none; }
 /* Homepage service cards become links */
 .service-card { display: block; color: inherit; }
 
-/* Detail page — hero image band */
-.svc-media { padding-top: 3rem; }
+/* Detail page — hero image band (edge-to-edge, no card styling) */
+.svc-media { padding-top: 0; }
 
 .svc-media-inner {
-  width: var(--w);
-  margin-inline: auto;
-  aspect-ratio: 21/9;
-  border-radius: 12px;
+  width: 100%;
+  aspect-ratio: 32/9;
   overflow: hidden;
-  border: 1px solid var(--grey-3);
   background: var(--grey-4);
 }
 
@@ -2941,7 +2938,7 @@ ul { list-style: none; }
 
 @media (max-width: 1024px) {
   .svc-index-grid { grid-template-columns: 1fr 1fr; }
-  .svc-media-inner { aspect-ratio: 16/9; }
+  .svc-media-inner { aspect-ratio: 21/9; }
   .svc-body .container { grid-template-columns: 1fr; gap: 3rem; }
   .svc-aside { position: static; }
   .svc-other-grid { grid-template-columns: 1fr 1fr; }
